@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:fresco="http://schemas.android.com/apk/res-auto">
+
+    <com.pili.pldroid.player.widget.PLVideoView
+        android:id="@+id/VideoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:id="@+id/CoverView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:src="@mipmap/carmer_qiehuan" />
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:onClick="onClickSwitchScreen"
+            android:src="@mipmap/ic_switch_screen" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/act_live_head_img"
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    android:layout_gravity="center"
+                    fresco:actualImageScaleType="fitXY"
+                    fresco:failureImage="@mipmap/zbo_4"
+                    fresco:failureImageScaleType="fitXY"
+                    fresco:placeholderImage="@mipmap/zbo_4"
+                    fresco:roundAsCircle="true"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15px"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/act_live_nickname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5px"
+                    android:text=""
+                    android:textColor="#A9A9A9"
+                    android:textSize="25px" />
+
+                <TextView
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10px"
+                    android:text="00:14:20"
+                    android:textColor="#A9A9A9"
+                    android:textSize="25px" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="right"
+                android:layout_marginLeft="30px">
+
+                <ImageView
+                    android:id="@+id/camera_switch_editex"
+                    android:layout_width="40px"
+                    android:layout_height="40px"
+                    android:layout_marginRight="50dp"
+                    android:src="@mipmap/zbo_7" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/num_people"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="10px"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#A9A9A9"
+                    android:textSize="25px"/>
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/act_live_head_img_nickname"
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    android:layout_gravity="center"
+                    fresco:actualImageScaleType="fitXY"
+                    fresco:failureImage="@mipmap/zbo_4"
+                    fresco:failureImageScaleType="fitXY"
+                    fresco:placeholderImage="@mipmap/zbo_4"
+                    fresco:roundAsCircle="true"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30px"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/phb_rec"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </android.support.v7.widget.RecyclerView>
+            </LinearLayout>
+
+        </LinearLayout>
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/qinghongbao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/look_live_qianghongbao"
+            android:layout_gravity="right"
+            android:layout_margin="40px"
+            />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/extcapstreaming_ly"
+                android:layout_width="500px"
+                android:layout_height="600px"
+                android:layout_gravity="bottom"
+                android:layout_margin="15px"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.lf.tempcore.recyclerview.LRecyclerView
+                            android:id="@+id/recycler_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            />
+
+                    </FrameLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="30px">
+
+            <ImageView
+                android:id="@+id/send_message_img"
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:src="@mipmap/zbo_10" />
+
+            <ImageView
+                android:id="@+id/live_camera_change"
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_marginLeft="15px"
+                android:src="@mipmap/look_live_share" />
+
+            <ImageView
+                android:id="@+id/look_live_zhubo_shop_img"
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_marginLeft="300px"
+                android:layout_gravity="right"
+                android:src="@mipmap/look_live_zhubo_shop" />
+            <ImageView
+                android:id="@+id/send_gift"
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_marginLeft="15px"
+                android:layout_gravity="right"
+                android:src="@mipmap/look_live_zhubo_gift" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:onClick="onClickSwitchScreen"
+            android:src="@mipmap/ic_switch_screen" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/LoadingView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="加载中..."
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+</FrameLayout>
+

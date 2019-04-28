@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.code.clkj.menggong.activity.comUserLogin.RegisterActivity">
+
+    <!--注册的界面-->
+
+    <include layout="@layout/temp_toolbar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp"
+        >
+
+        <EditText
+            android:id="@+id/phone_number"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:hint="@string/phone_number"
+            android:textColorHint="#a0a0a0"
+            android:textSize="16sp"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:inputType="number"
+            android:layout_weight="3"
+            android:cursorVisible="true"
+            android:textCursorDrawable="@drawable/color_cursor"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#e7e7e7"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp"
+        >
+
+        <EditText
+            android:id="@+id/mVerificationCode"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:hint="请输入验证码"
+            android:textColorHint="#a0a0a0"
+            android:textSize="16sp"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:inputType="number"
+            android:layout_weight="3"
+            android:cursorVisible="true"
+            android:textCursorDrawable="@drawable/color_cursor"
+            />
+
+        <Button
+            android:id="@+id/mSendVerificationCode"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="发送验证码"
+            android:textSize="16sp"
+            android:textColor="#a0a0a0"
+            android:background="@drawable/shap_btn_gray"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#e7e7e7"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+    <EditText
+        android:id="@+id/mNewPassdWord"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="请设置最少六位数字码"
+        android:textColorHint="#a0a0a0"
+        android:textSize="16sp"
+        android:background="@null"
+        android:inputType="textPassword"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:cursorVisible="true"
+        android:textCursorDrawable="@drawable/color_cursor"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#e7e7e7"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <!--邀请人ID-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical">
+
+        <!--<ImageView-->
+            <!--android:layout_width="25dp"-->
+            <!--android:layout_height="25dp"-->
+            <!--android:src="@mipmap/user"/>-->
+
+        <EditText
+            android:id="@+id/mInviteID"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="邀请人ID"
+            android:inputType="number"
+            android:textColorHint="#a0a0a0"
+            android:textSize="16sp"
+            android:cursorVisible="true"
+            android:textCursorDrawable="@drawable/color_cursor"
+
+            />
+    </LinearLayout>
+
+    <!--划线-->
+    <include layout="@layout/segmenting_line_02"/>
+
+    <TextView
+        android:id="@+id/mRegister"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="注册"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="@drawable/cricler_btn"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        />
+</LinearLayout>

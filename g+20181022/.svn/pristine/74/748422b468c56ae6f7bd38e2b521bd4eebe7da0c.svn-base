@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#ccc"
+        android:gravity="center_vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/act_home_follow_img"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/back"
+
+            />
+
+        <TextView
+            android:id="@+id/mUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="我的关注"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <include layout="@layout/temp_toolbar" />
+    <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/act_home_follow_rcv"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+    <com.code.clkj.menggong.base.TempRecyclerView
+    android:id="@+id/act_home_follow_rcv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.code.clkj.menggong.base.TempRecyclerView>
+
+
+</LinearLayout>

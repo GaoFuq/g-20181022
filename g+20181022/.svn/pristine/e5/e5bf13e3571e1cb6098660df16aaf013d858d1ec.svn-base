@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:fresco="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <!--个人信息中心界面-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="225px"
+        android:background="@mipmap/grzx_5"
+        android:orientation="horizontal"
+        >
+        <!--圆形头像-->
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/mHeadIcon"
+            android:layout_width="170px"
+            android:layout_height="170px"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            fresco:placeholderImage="@mipmap/grzx_3"
+            fresco:roundAsCircle="true"
+            fresco:failureImage="@mipmap/grzx_3"
+            fresco:actualImageScaleType="fitXY"
+            fresco:failureImageScaleType="fitXY"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:id="@+id/log_rl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/mUserName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="未登录"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    />
+
+                <TextView
+                    android:id="@+id/login_tv"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/shape_white_border"
+                    android:gravity="center"
+                    android:text="登 录"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"/>
+
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:src="@mipmap/grzx_4"
+                    android:visibility="gone"
+                    />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#fdbbd1"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:id="@+id/Wallet_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="钱包余额:"
+                    android:textColor="#ffb7cf"
+                    android:textSize="16sp"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--第二栏-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180px"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        >
+
+        <!--我的礼物-->
+        <LinearLayout
+            android:id="@+id/mPresent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@mipmap/grzx_6"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="我的礼物"
+                android:textColor="#727272"
+                android:textSize="13sp"
+                />
+        </LinearLayout>
+
+        <!--我的订单-->
+        <LinearLayout
+            android:id="@+id/mOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@mipmap/grzx_7"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="我的订单"
+                android:textColor="#727272"
+                android:textSize="13sp"
+                />
+        </LinearLayout>
+
+        <!--浏览历史-->
+        <LinearLayout
+            android:id="@+id/mHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@mipmap/grzx_8"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="浏览历史"
+                android:textColor="#727272"
+                android:textSize="13sp"
+                />
+        </LinearLayout>
+
+        <!--认证主播-->
+        <LinearLayout
+            android:id="@+id/mCertification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@mipmap/grzx_9"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="认证主播"
+                android:textColor="#727272"
+                android:textSize="13sp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.25dp"
+        android:layout_marginTop="10dp"
+        android:background="#e2e2e2"/>
+    <!--第三栏-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180px"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        >
+
+        <!--检测预约-->
+        <LinearLayout
+            android:id="@+id/mReservation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@mipmap/grzx_10"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="检测预约"
+                android:textColor="#727272"
+                android:textSize="13sp"
+                />
+        </LinearLayout>
+
+        <!--我的关注-->
+        <LinearLayout
+            android:id="@+id/mAttention"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@mipmap/grzx_11"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="我的关注"
+                android:textColor="#727272"
+                android:textSize="13sp"
+                />
+        </LinearLayout>
+
+        <!--密码管理-->
+        <LinearLayout
+            android:id="@+id/mPsdManagement"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@mipmap/grzx_12"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="密码管理"
+                android:textColor="#727272"
+                android:textSize="13sp"
+                />
+        </LinearLayout>
+
+        <!--收货地址管理-->
+        <LinearLayout
+            android:id="@+id/mReceiptAddress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@mipmap/grzx_13"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="收货地址管理"
+                android:textColor="#727272"
+                android:textSize="13sp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180px"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        >
+
+        <!--检测预约-->
+        <LinearLayout
+            android:id="@+id/mtuiguang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@mipmap/icon_wdtg"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="我的推广"
+                android:textColor="#727272"
+                android:textSize="13sp"
+                />
+        </LinearLayout>
+
+        <!--我的关注-->
+        <LinearLayout
+               android:visibility="invisible"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@mipmap/grzx_11"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="我的关注"
+                android:textColor="#727272"
+                android:textSize="13sp"
+                />
+        </LinearLayout>
+
+        <!--密码管理-->
+        <LinearLayout
+            android:visibility="invisible"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@mipmap/grzx_12"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="密码管理"
+                android:textColor="#727272"
+                android:textSize="13sp"
+                />
+        </LinearLayout>
+
+        <!--收货地址管理-->
+        <LinearLayout
+            android:visibility="invisible"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@mipmap/grzx_13"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="收货地址管理"
+                android:textColor="#727272"
+                android:textSize="13sp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.jzxiang.pickerview:TimePickerDialog:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/f5e22e495015e0369b703fe46e4d1c7667ab93cd/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/f5e22e495015e0369b703fe46e4d1c7667ab93cd/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jzxiang.pickerview/TimePickerDialog/1.0.1/c1ace389eda4d5baf0b16a7cdcdc3271b9d5f5bf/TimePickerDialog-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

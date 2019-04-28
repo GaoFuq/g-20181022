@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/temp_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/chcg_1"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/chcg_2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="#5a5a5a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="抱歉，你的主播认证未通过"
+            android:textSize="30px" />
+        <Button
+            android:textSize="30px"
+            android:layout_marginTop="30dp"
+            android:text="重新认证"
+            android:textColor="#7d7d7d"
+            android:background="@drawable/cricler_btn_white"
+            android:layout_width="470px"
+            android:layout_height="76px" />
+
+    </LinearLayout>
+
+</LinearLayout>

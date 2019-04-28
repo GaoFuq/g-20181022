@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/Title"
+                android:textSize="18sp"
+                android:textColor="#3c3c3c"
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/helpContext"
+                android:text=""
+                android:layout_width="280dp"
+                android:textColor="#a4a4a4"
+                android:textSize="12sp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/guide"
+                android:layout_marginLeft="15dp"
+                android:layout_width="30px"
+                android:layout_height="30px"
+                android:layout_gravity="top"
+                android:src="@mipmap/grzl_2" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#e2e2e2"
+    />
+
+</LinearLayout>

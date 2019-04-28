@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#40000000"
+    >
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       android:layout_alignParentBottom="true"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingTop="20px"
+                android:gravity="center"
+                android:textColor="#8F8F8F"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="分享到"/>
+            <TextView
+                android:id="@+id/temp_share_close"
+                android:layout_alignParentRight="true"
+                android:paddingTop="20px"
+                android:paddingRight="20px"
+                android:paddingLeft="20px"
+                android:paddingBottom="20px"
+                android:gravity="center"
+                android:textColor="#8F8F8F"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_marginBottom="10px"
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="#f2f2f2"/>
+        <LinearLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layoutAnimation="@anim/temp_layout_animation"
+            >
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <ImageButton
+                    android:id="@+id/temp_share_wechat"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/temp_icon_custom_share_wx"
+                    />
+                <TextView
+                    android:layout_below="@id/temp_share_wechat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#272727"
+                    android:textSize="14sp"
+                    android:text="微信好友"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <ImageButton
+                    android:id="@+id/temp_share_circle"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/temp_icon_custom_share_friends"
+                    />
+                <TextView
+                    android:layout_below="@id/temp_share_circle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="#272727"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:text="朋友圈"/>
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <ImageButton
+                    android:id="@+id/temp_share_qzone"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/temp_icon_custom_share_qqzone"
+                    />
+                <TextView
+                    android:layout_below="@id/temp_share_qzone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="#272727"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:text="QQ空间"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <ImageButton
+                    android:id="@+id/temp_share_qq"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/temp_icon_custom_share_qq"
+                    />
+                <TextView
+                    android:textColor="#272727"
+                    android:layout_below="@id/temp_share_qq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="14sp"
+                    android:text="QQ好友"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

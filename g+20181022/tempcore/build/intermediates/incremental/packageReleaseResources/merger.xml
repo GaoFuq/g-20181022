@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res"/><source path="D:\G+bug\g+20181022\g+20181022\tempcore\build\generated\res\rs\release"/><source path="D:\G+bug\g+20181022\g+20181022\tempcore\build\generated\res\resValues\release"/></dataSet><dataSet config="release$Generated" generated="true"><source path="D:\G+bug\g+20181022\g+20181022\tempcore\src\release\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res"><file name="dialog_enter" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\anim\dialog_enter.xml" qualifiers="" type="anim"/><file name="dialog_exit" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\anim\dialog_exit.xml" qualifiers="" type="anim"/><file name="slide_from_left" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\anim\slide_from_left.xml" qualifiers="" type="anim"/><file name="slide_from_right" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\anim\slide_from_right.xml" qualifiers="" type="anim"/><file name="slide_to_left" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\anim\slide_to_left.xml" qualifiers="" type="anim"/><file name="slide_to_right" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\anim\slide_to_right.xml" qualifiers="" type="anim"/><file name="temp_anim_scale_in" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\anim\temp_anim_scale_in.xml" qualifiers="" type="anim"/><file name="temp_anim_scale_out" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\anim\temp_anim_scale_out.xml" qualifiers="" type="anim"/><file name="temp_item_anim" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\anim\temp_item_anim.xml" qualifiers="" type="anim"/><file name="temp_layout_animation" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\anim\temp_layout_animation.xml" qualifiers="" type="anim"/><file name="temp_reverse_down_anim" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\anim\temp_reverse_down_anim.xml" qualifiers="" type="anim"/><file name="temp_reverse_up_anim" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\anim\temp_reverse_up_anim.xml" qualifiers="" type="anim"/><file name="temp_rotating_anim" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\anim\temp_rotating_anim.xml" qualifiers="" type="anim"/><file name="temp_slide_in_right" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\anim\temp_slide_in_right.xml" qualifiers="" type="anim"/><file name="button_back" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\drawable\button_back.xml" qualifiers="" type="drawable"/><file name="dialog_loading" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\drawable\dialog_loading.xml" qualifiers="" type="drawable"/><file name="ic_tip" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\drawable\ic_tip.png" qualifiers="" type="drawable"/><file name="kprogresshud_spinner" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\drawable\kprogresshud_spinner.png" qualifiers="" type="drawable"/><file name="loading_bg" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\drawable\loading_bg.9.png" qualifiers="" type="drawable"/><file name="popup_bg" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\drawable\popup_bg.9.png" qualifiers="" type="drawable"/><file name="progressloading" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\drawable\progressloading.xml" qualifiers="" type="drawable"/><file name="shape_toolbar_search" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\drawable\shape_toolbar_search.xml" qualifiers="" type="drawable"/><file name="temp_image_default" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\drawable\temp_image_default.png" qualifiers="" type="drawable"/><file name="temp_image_load_fail" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\drawable\temp_image_load_fail.png" qualifiers="" type="drawable"/><file name="temp_message_dialog_bg" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\drawable\temp_message_dialog_bg.xml" qualifiers="" type="drawable"/><file name="temp_progress" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\drawable\temp_progress.xml" qualifiers="" type="drawable"/><file name="temp_progress_image" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\drawable\temp_progress_image.png" qualifiers="" type="drawable"/><file name="act_image_preview_layout" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\layout\act_image_preview_layout.xml" qualifiers="" type="layout"/><file name="dialog_loading" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\layout\dialog_loading.xml" qualifiers="" type="layout"/><file name="fragment_pull_refresh_recyclerview" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\layout\fragment_pull_refresh_recyclerview.xml" qualifiers="" type="layout"/><file name="image_preview" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\layout\image_preview.xml" qualifiers="" type="layout"/><file name="kprogresshud_hud" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\layout\kprogresshud_hud.xml" qualifiers="" type="layout"/><file name="layout_indicator_view" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\layout\layout_indicator_view.xml" qualifiers="" type="layout"/><file name="layout_recyclerview_footer" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\layout\layout_recyclerview_footer.xml" qualifiers="" type="layout"/><file name="layout_recyclerview_header" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\layout\layout_recyclerview_header.xml" qualifiers="" type="layout"/><file name="layout_recyclerview_list_footer" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\layout\layout_recyclerview_list_footer.xml" qualifiers="" type="layout"/><file name="layout_recyclerview_list_footer_end" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\layout\layout_recyclerview_list_footer_end.xml" qualifiers="" type="layout"/><file name="layout_recyclerview_list_footer_loading" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\layout\layout_recyclerview_list_footer_loading.xml" qualifiers="" type="layout"/><file name="layout_recyclerview_list_footer_network_error" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\layout\layout_recyclerview_list_footer_network_error.xml" qualifiers="" type="layout"/><file name="listview_header" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\layout\listview_header.xml" qualifiers="" type="layout"/><file name="temp_app_tool_bar_layout" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\layout\temp_app_tool_bar_layout.xml" qualifiers="" type="layout"/><file name="temp_custom_progress_dialog_layout" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\layout\temp_custom_progress_dialog_layout.xml" qualifiers="" type="layout"/><file name="temp_download_notification_layout" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\layout\temp_download_notification_layout.xml" qualifiers="" type="layout"/><file name="temp_gif_headview" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\layout\temp_gif_headview.xml" qualifiers="" type="layout"/><file name="temp_layout_progress_recyclerview" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\layout\temp_layout_progress_recyclerview.xml" qualifiers="" type="layout"/><file name="temp_load_more" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\layout\temp_load_more.xml" qualifiers="" type="layout"/><file name="temp_photo_pk_layout" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\layout\temp_photo_pk_layout.xml" qualifiers="" type="layout"/><file name="temp_refresh_head" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\layout\temp_refresh_head.xml" qualifiers="" type="layout"/><file name="temp_rv_empty" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\layout\temp_rv_empty.xml" qualifiers="" type="layout"/><file name="temp_rv_load_more" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\layout\temp_rv_load_more.xml" qualifiers="" type="layout"/><file name="temp_rv_no_more" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\layout\temp_rv_no_more.xml" qualifiers="" type="layout"/><file name="temp_rv_progressbar" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\layout\temp_rv_progressbar.xml" qualifiers="" type="layout"/><file name="temp_toolbar" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\layout\temp_toolbar.xml" qualifiers="" type="layout"/><file name="view_empty_layout" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\layout\view_empty_layout.xml" qualifiers="" type="layout"/><file name="view_error_layout" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\layout\view_error_layout.xml" qualifiers="" type="layout"/><file name="clear" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-hdpi\clear.png" qualifiers="hdpi-v4" type="mipmap"/><file name="icon_search_1" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-hdpi\icon_search_1.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="mipmap"/><file name="body_actionbar_back_icon" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\body_actionbar_back_icon.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="body_actionbar_back_icon_transparent" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\body_actionbar_back_icon_transparent.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="content_emaly" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\content_emaly.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="frag_homeindex_mine_def_head_icon" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\frag_homeindex_mine_def_head_icon.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="gg_back_d" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\gg_back_d.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="gg_back_n" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\gg_back_n.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_page_failed" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\ic_page_failed.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_page_icon_network" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\ic_page_icon_network.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_pulltorefresh_arrow" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\ic_pulltorefresh_arrow.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="kprogresshud_spinner" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\kprogresshud_spinner.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="loading" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\loading.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="shoucang" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\shoucang.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="temp_anim" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\temp_anim.gif" qualifiers="xhdpi-v4" type="mipmap"/><file name="temp_body_actionbar_back_cion" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\temp_body_actionbar_back_cion.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="temp_body_actionbar_bg" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\temp_body_actionbar_bg.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="temp_cancle_icon" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\temp_cancle_icon.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="temp_close" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\temp_close.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="temp_loading" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\temp_loading.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="temp_load_failed" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\temp_load_failed.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="temp_load_succeed" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\temp_load_succeed.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="temp_open" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\temp_open.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="temp_pullup_icon_big" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\temp_pullup_icon_big.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="temp_pull_icon_big" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\temp_pull_icon_big.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="temp_refreshing" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\temp_refreshing.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="temp_refresh_failed" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\temp_refresh_failed.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="temp_refresh_succeed" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\temp_refresh_succeed.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="temp_shose_pic_icon" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\temp_shose_pic_icon.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="temp_switch_thumb" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\temp_switch_thumb.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="temp_take_pic_icon" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\temp_take_pic_icon.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="top_bar_back_icon" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\top_bar_back_icon.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="xiaoximessage" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xhdpi\xiaoximessage.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="clear" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xxhdpi\clear.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="dialog_loading_img" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xxhdpi\dialog_loading_img.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\mipmap-xxxhdpi\ic_launcher.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="RoundImageView">
+        <attr format="dimension" name="border_thickness"/>
+        <attr format="color" name="border_outside_color"/>
+        <attr format="color" name="border_inside_color"/>
+    </declare-styleable><declare-styleable name="AVLoadingIndicatorView">
+        <attr format="dimension" name="minWidth"/>
+        <attr format="dimension" name="maxWidth"/>
+        <attr format="dimension" name="minHeight"/>
+        <attr format="dimension" name="maxHeight"/>
+        <attr format="string" name="indicatorName"/>
+        <attr format="color" name="indicatorColor"/>
+    </declare-styleable><declare-styleable name="tempRefreshRecyclerView">
+        <attr format="reference" name="layout_empty"/>
+        <attr format="reference" name="layout_progress"/>
+        <attr format="reference" name="layout_error"/>
+        <attr format="boolean" name="recyclerClipToPadding"/>
+        <attr format="dimension" name="recyclerPadding"/>
+        <attr format="dimension" name="recyclerPaddingTop"/>
+        <attr format="dimension" name="recyclerPaddingBottom"/>
+        <attr format="dimension" name="recyclerPaddingLeft"/>
+        <attr format="dimension" name="recyclerPaddingRight"/>
+        <attr name="scrollbarStyle">
+            <enum name="insideOverlay" value="0x0"/>
+            <enum name="insideInset" value="0x01000000"/>
+            <enum name="outsideOverlay" value="0x02000000"/>
+            <enum name="outsideInset" value="0x03000000"/>
+        </attr>
+    </declare-styleable></file><file path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\values\colors.xml" qualifiers=""><color name="temp_colorAccent">#2d5481</color><color name="gray_text">#FF858585</color><color name="color_39b9aa">#39b9aa</color><color name="temp_white_color">#FFFFFF</color><color name="temp_baseTextColor_AAAAAA">#AAAAAA</color><color name="temp_gray">#AAAA</color><color name="black">#000000</color><color name="color_737373">#737373</color><color name="color_f4f4f4">#f4f4f4</color><color name="temp_pink_color">#FF4000</color><color name="temp_transparent">#00000000</color><color name="temp_black">#000000</color><color name="colorPrimary">#000</color><color name="colorWhite">#FFFFFF</color><color name="color_ffeed5">#ffeed5</color><color name="colorAccent">#FFFFFF</color><color name="temp_colorPrimaryDark">#164E87</color><color name="temp_colorPrimary">#164E87</color><color name="temp_dialog_positive_button_bg">#FF900A</color><color name="color_858585">#858585</color><color name="temp_baseLineColor_e5e5e5">#e5e5e5</color><color name="temp_actionbarColor">#27AC39</color><color name="temp_base_color_transparent">#00000000</color><color name="color_f2f2f2">#f2f2f2</color><color name="temp_baseTextColor_565656">#565656</color><color name="temp_base_color_half_transparent_white">#4fffffff</color><color name="temp_base_color_half_transparent_black">#5f000000</color><color name="color_FF6D00">#FF6D00</color><color name="color_3E3E3E">#3E3E3E</color><color name="colorPrimaryDark">#FFFFFF</color><color name="temp_white">#FFFFFF</color><color name="temp_dialog_negative_button_bg">#ECECEC</color><color name="color_343434">#434343</color><color name="toolbar_top_color">#ccc</color><color name="infoTextColor">#999999</color><color name="temp_baseTextColor_272727">#272727</color><color name="gray">#AAAA</color><color name="app_bg">#F4F4F4</color><color name="white">#FFFFFF</color></file><file path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\values\cricular_progress_style.xml" qualifiers=""><style name="LightColorCircularProgressDrawable" parent="Material.Drawable.CircularProgress">
+        <item name="cpd_strokeColors">@array/progress_colors_light</item>
+    </style><array name="in_colors_light">
+        <item>#4B03A9F4</item>
+        <item>#3303A9F4</item>
+        <item>#1903A9F4</item>
+    </array><style name="LightInCircularProgressDrawable" parent="Material.Drawable.CircularProgress">
+        <item name="cpd_strokeColors">@array/progress_colors_light</item>
+        <item name="cpd_inAnimDuration">800</item>
+        <item name="cpd_inStepPercent">0.6</item>
+        <item name="cpd_strokeColor">@color/temp_colorPrimary</item>
+        <item name="cpd_inStepColors">@array/in_colors_light</item>
+        <item name="cpd_outAnimDuration">0</item>
+    </style><style name="LightInColorCircularProgressView">
+        <item name="pv_autostart">false</item>
+        <item name="pv_circular">true</item>
+        <item name="pv_progressMode">indeterminate</item>
+        <item name="pv_progressStyle">@style/LightInCircularProgressDrawable</item>
+    </style><array name="progress_colors_light">
+        <item>#FF03A9F4</item>
+        <item>#FFD8433C</item>
+        <item>#FFF2AF3A</item>
+        <item>#FF279B5E</item>
+    </array></file><file path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\values\dimens.xml" qualifiers=""><dimen name="textandiconmargin">10dp</dimen><item name="dialog_fixed_height_minor" type="dimen">90%</item><dimen name="default_divider_height">1px</dimen><dimen name="px_25">25px</dimen><dimen name="dp_6">6dp</dimen><dimen name="controller_text_size">16sp</dimen><dimen name="controller_seekbar_max_size">1dp</dimen><dimen name="dp_10">10dp</dimen><dimen name="player_play_btn_size">50dp</dimen><dimen name="dp_72">72dp</dimen><dimen name="dp_18">18dp</dimen><dimen name="sp_20">20sp</dimen><dimen name="controller_time_text_size">14sp</dimen><dimen name="dp_14">14dp</dimen><dimen name="dp_36">36dp</dimen><dimen name="popupwindow_menu_item_height">60px</dimen><dimen name="controller_height">40dp</dimen><dimen name="font_small">14sp</dimen><dimen name="px_12">12px</dimen><dimen name="controller_seekbar_size_s">14dp</dimen><dimen name="dp_60">60px</dimen><dimen name="dp_066">0.66dp</dimen><dimen name="padding_size_default">8dp</dimen><dimen name="dp_4">4dp</dimen><item name="dialog_fixed_width_major" type="dimen">60%</item><item name="dialog_fixed_width_minor" type="dimen">90%</item><dimen name="controller_seekbar_size_n">14dp</dimen><dimen name="dp_22">22dp</dimen><dimen name="sp_16">16sp</dimen><dimen name="sp_15">15sp</dimen><dimen name="sp_18">18sp</dimen><dimen name="dp_40">40dp</dimen><item name="dialog_fixed_height_major" type="dimen">60%</item><dimen name="default_spacing">10dp</dimen><dimen name="controller_icon_padding">10dp</dimen><dimen name="sp_12">12sp</dimen><dimen name="sp_14">14sp</dimen><dimen name="sp_13">13sp</dimen></file><file path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\values\integers.xml" qualifiers=""><integer name="slide_animation_duration">300</integer></file><file path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\values\loading_colors.xml" qualifiers=""><color name="kprogresshud_default_color">#b1000000</color><color name="kprogresshud_grey_color">#449E9E9E</color></file><file path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\values\material_styles.xml" qualifiers=""><style name="temp_snackBar_style" parent="Material.Widget.SnackBar.Mobile.MultiLine">
+        <item name="sb_duration">5000</item>
+    </style><style name="popwin_anim_style">
+        <item name="android:windowEnterAnimation">@anim/temp_anim_scale_in</item>
+        <item name="android:windowExitAnimation">@anim/temp_anim_scale_out</item>
+    </style><style name="temp_material_button_style" parent="Material.Drawable.Ripple.Touch.Light">
+        <item name="android:background">@null</item>
+        <item name="rd_cornerRadius">4dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Button</item>
+    </style><style name="temp_material_edittext_style" parent="Material.Widget.EditText.Light">
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Body1</item>
+        
+        
+        <item name="et_supportTextErrorColor">#FFFF0000</item>
+        <item name="et_dividerErrorColor">#FFFF0000</item>
+    </style><style name="temp_material_dialog_style" parent="Material.App.Dialog.Simple.Light">
+        <item name="di_inAnimation">@anim/temp_anim_scale_in</item>
+        <item name="di_outAnimation">@anim/temp_anim_scale_out</item>
+        
+        
+        
+    </style></file><file path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\values\strings.xml" qualifiers=""><string name="pullup_to_load">上拉加载更多</string><string name="crash_toast_text">程序异常,已通过报告的把异常信息发送给开发者进行修复 !</string><string name="refresh_done">刷新完成</string><string name="listview_header_hint_normal">下拉刷新</string><string name="crash_user_email_label">填写您的邮箱，以便给您提供更好的服务</string><string name="error_view_loading">加载中…</string><string name="crash_dialog_ok_toast">感谢 !</string><string name="load_fail">加载失败</string><string name="refreshing">正在刷新...</string><string name="error_view_no_data">暂无内容</string><string name="error_view_network_error_click_to_refresh">没有可用的网络</string><string name="text_year_ago">年前</string><string name="error_view_click_to_refresh">点击屏幕,重新加载</string><string name="error_view_load_error_click_to_notconext">暂无内容</string><string name="refresh_succeed">刷新成功</string><string name="release_to_refresh">释放立即刷新</string><string name="loading">正在努力加载...</string><string name="crash_dialog_title">异常</string><string name="listview_header_last_time">上次更新时间：</string><string name="pull_to_refresh">下拉刷新</string><string name="crash_dialog_comment_prompt">添加您对于这个异常的描述:</string><string name="text_day_ago">天前</string><string name="dialog_loading">请等候...</string><string name="listview_header_hint_release">释放立即刷新</string><string name="release_to_load">释放立即加载</string><string name="list_footer_loading">正在加载中…</string><string name="nomore_loading">没有了</string><string name="listview_loading">正在加载...</string><string name="app_name">口腔派</string><string name="refresh_fail">刷新失败</string><string name="text_minute_ago">分钟前</string><string name="text_just">刚刚</string><string name="text_month_ago">月前</string><string name="list_footer_end">已全部加载完</string><string name="temp_loading">正在加载...</string><string name="tip_network_error">没有可用的网络</string><string name="text_seconds_ago">秒前</string><string name="error_view_load_error_click_to_notconext_shoucang">暂无收藏</string><string name="text_hour_ago">小时前</string><string name="Retrieve_verification_code">重新获取验证码</string><string name="error_view_load_error_click_to_refresh">内容加载失败\r\n点击重新加载</string><string name="error_view_load_error_click_to_notconext_message">暂无消息</string><string name="load_succeed">加载成功</string><string name="list_footer_network_error">点击重新加载</string><string name="crash_dialog_text">程序异常停止.请帮助我们把异常报告发送给开发者进行修复,只需要点击 确定.</string></file><file path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\values\styles.xml" qualifiers=""><style name="AVLoadingIndicatorView">
+        <item name="minWidth">48dip</item>
+        <item name="maxWidth">48dip</item>
+        <item name="minHeight">48dip</item>
+        <item name="maxHeight">48dip</item>
+        <item name="indicatorName">LineSpinFadeLoaderIndicator</item>
+    </style><style name="customDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style><style name="PopWindowAnimStyle">
+        <item name="android:windowShowAnimation">@anim/dialog_enter</item>
+        
+        <item name="android:windowHideAnimation">@anim/dialog_exit</item>
+        
+    </style><style name="CustomProgressDialog" parent="@style/customDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style><style name="loading">
+        <item name="android:indeterminate">true</item>
+        <item name="android:indeterminateDrawable">@drawable/progressloading</item>
+        <item name="android:indeterminateDuration">1000</item>
+        <item name="android:indeterminateOnly">true</item>
+    </style><style name="Widget"/><style name="gallery_point_style">
+        <item name="android:gravity">center|bottom</item>
+        <item name="android:layout_gravity">center|bottom</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:background">#77000000</item>
+    </style><style name="Widget.AoXinTong.Blue.ProgressBar" parent="Widget">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/temp_progress</item>
+        <item name="android:indeterminateDrawable">@drawable/temp_progress</item>
+        <item name="android:minHeight">5dip</item>
+        <item name="android:maxHeight">20dip</item>
+    </style><style name="AppTheme.Dialog" parent="Theme.AppCompat"/><style name="temp_custom_dialog_style" parent="@style/CustomProgressDialog">
+        <item name="android:windowAnimationStyle">@style/popwin_anim_style</item>
+    </style><style name="MyDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style><style name="MenuDialog" parent="@android:style/Theme.Dialog">
+        
+        <item name="android:windowBackground">@android:color/transparent</item>
+        
+        <item name="android:windowNoTitle">true</item>
+        
+        <item name="android:windowIsFloating">true</item>
+        
+        <item name="android:backgroundDimEnabled">true</item>
+    </style><style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/><style name="TempAppTheme" parent="LFAppTheme.Base">
+    </style><style name="temp_dialog_theme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlActivated">@color/temp_pink_color</item>
+        
+        <item name="textColorAlertDialogListItem">@android:color/black</item>
+        
+        <item name="colorAccent">@color/temp_pink_color</item>
+        
+        <item name="android:textColorPrimary">@color/temp_black</item>
+        
+        <item name="android:windowBackground">@drawable/temp_message_dialog_bg</item>
+    </style><style name="LFAppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        
+        <item name="colorAccent">@color/temp_colorAccent</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/temp_baseTextColor_565656</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        
+        
+
+    </style></file><file path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\res\values-v21\styles.xml" qualifiers="v21"><style name="TempAppTheme" parent="LFAppTheme.Base">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+    </style></file></source><source path="D:\G+bug\g+20181022\g+20181022\tempcore\build\generated\res\rs\release"/><source path="D:\G+bug\g+20181022\g+20181022\tempcore\build\generated\res\resValues\release"/></dataSet><dataSet config="release" generated-set="release$Generated"><source path="D:\G+bug\g+20181022\g+20181022\tempcore\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="tempRefreshRecyclerView"><attr format="reference" name="layout_empty"/><attr format="reference" name="layout_progress"/><attr format="reference" name="layout_error"/><attr format="boolean" name="recyclerClipToPadding"/><attr format="dimension" name="recyclerPadding"/><attr format="dimension" name="recyclerPaddingTop"/><attr format="dimension" name="recyclerPaddingBottom"/><attr format="dimension" name="recyclerPaddingLeft"/><attr format="dimension" name="recyclerPaddingRight"/><attr name="scrollbarStyle">
+            <enum name="insideOverlay" value="0x0"/>
+            <enum name="insideInset" value="0x01000000"/>
+            <enum name="outsideOverlay" value="0x02000000"/>
+            <enum name="outsideInset" value="0x03000000"/>
+        </attr></declare-styleable><declare-styleable name="AVLoadingIndicatorView"><attr format="dimension" name="minWidth"/><attr format="dimension" name="maxWidth"/><attr format="dimension" name="minHeight"/><attr format="dimension" name="maxHeight"/><attr format="string" name="indicatorName"/><attr format="color" name="indicatorColor"/></declare-styleable><declare-styleable name="RoundImageView"><attr format="dimension" name="border_thickness"/><attr format="color" name="border_outside_color"/><attr format="color" name="border_inside_color"/></declare-styleable></configuration></mergedItems></merger>

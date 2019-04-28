@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\4495d6664cad6621a8baca3aecc642870da97637\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\8e1b80a7f7cc4638eb5e21da7b43509c33a1e971\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\temp_layout_animation.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\src\\main\\res\\anim\\temp_layout_animation.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\dialog_exit.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\src\\main\\res\\anim\\dialog_exit.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\4495d6664cad6621a8baca3aecc642870da97637\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\slide_from_right.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\src\\main\\res\\anim\\slide_from_right.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\4495d6664cad6621a8baca3aecc642870da97637\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\pickerview_dialog_scale_in.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\0a1214fb3a15401b2d4752501ab2e3ca4ef47857\\output\\res\\anim\\pickerview_dialog_scale_in.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\temp_anim_scale_in.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\src\\main\\res\\anim\\temp_anim_scale_in.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\4495d6664cad6621a8baca3aecc642870da97637\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\8e1b80a7f7cc4638eb5e21da7b43509c33a1e971\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\4495d6664cad6621a8baca3aecc642870da97637\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\temp_rotating_anim.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\src\\main\\res\\anim\\temp_rotating_anim.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\4495d6664cad6621a8baca3aecc642870da97637\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\pickerview_slide_in_bottom.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\0a1214fb3a15401b2d4752501ab2e3ca4ef47857\\output\\res\\anim\\pickerview_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\temp_reverse_up_anim.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\src\\main\\res\\anim\\temp_reverse_up_anim.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\temp_slide_in_right.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\src\\main\\res\\anim\\temp_slide_in_right.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\temp_item_anim.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\src\\main\\res\\anim\\temp_item_anim.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\pickerview_slide_out_bottom.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\0a1214fb3a15401b2d4752501ab2e3ca4ef47857\\output\\res\\anim\\pickerview_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\8e1b80a7f7cc4638eb5e21da7b43509c33a1e971\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\8e1b80a7f7cc4638eb5e21da7b43509c33a1e971\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\4495d6664cad6621a8baca3aecc642870da97637\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\4495d6664cad6621a8baca3aecc642870da97637\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\temp_anim_scale_out.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\src\\main\\res\\anim\\temp_anim_scale_out.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\slide_to_left.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\src\\main\\res\\anim\\slide_to_left.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\8e1b80a7f7cc4638eb5e21da7b43509c33a1e971\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\4495d6664cad6621a8baca3aecc642870da97637\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\slide_from_left.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\src\\main\\res\\anim\\slide_from_left.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\dialog_enter.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\src\\main\\res\\anim\\dialog_enter.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\4495d6664cad6621a8baca3aecc642870da97637\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\8e1b80a7f7cc4638eb5e21da7b43509c33a1e971\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\slide_to_right.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\src\\main\\res\\anim\\slide_to_right.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\pickerview_dialog_scale_out.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\0a1214fb3a15401b2d4752501ab2e3ca4ef47857\\output\\res\\anim\\pickerview_dialog_scale_out.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\build\\intermediates\\res\\merged\\release\\anim\\temp_reverse_down_anim.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\tempcore\\src\\main\\res\\anim\\temp_reverse_down_anim.xml"
+    }
+]

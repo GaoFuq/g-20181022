@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\assets"><file name="tempDB/dbarea.db" path="D:\G+bug\g+20181022\g+20181022\tempcore\src\main\assets\tempDB\dbarea.db"/></source><source path="D:\G+bug\g+20181022\g+20181022\tempcore\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="D:\G+bug\g+20181022\g+20181022\tempcore\src\release\assets"/></dataSet></merger>

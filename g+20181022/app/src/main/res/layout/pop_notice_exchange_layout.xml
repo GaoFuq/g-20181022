@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#40000000">
+    <LinearLayout
+        android:background="@drawable/shape_login_notice_bj"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="400px"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="280px"
+            android:gravity="center_horizontal"
+            android:background="#aca"
+            >
+            <ImageView
+                android:id="@+id/pop_notice_image"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/icon_favs_success"/>
+            <TextView
+                android:id="@+id/pop_notice_text"
+                android:layout_gravity="center_vertical"
+                android:textSize="20sp"
+                android:textColor="#565656"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="兑换成功"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/pop_notice_btn_ok"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10px"
+            android:paddingLeft="45dp"
+            android:paddingRight="40dp"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确 定"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

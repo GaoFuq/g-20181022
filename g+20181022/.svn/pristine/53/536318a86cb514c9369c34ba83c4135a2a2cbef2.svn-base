@@ -1,0 +1,62 @@
+package com.code.clkj.menggong.base.config;
+
+import android.text.TextUtils;
+
+/**
+ * Created by chenlingkeji on 2016/12/5.
+ */
+
+public class BaseUriConfig {
+
+   // public final static String BASE_URL = "http://42.96.207.142:8082/gaylive/";//内网地址
+
+  //  public final static String BASE_URL = "http://42.96.207.142:8082/gaylive/";//内网地址
+    public final static String BASE_URL = "http://115.28.86.42:8898/";//内网地址
+ /*   gaylive/*/
+ //  public final static String BASE_URL = "http://115.28.86.42:8085/";//内网地址
+  //  public final static String BASE_URL ="http://192.168.1.143:8080/";//内网地址
+
+    public final static String BASE_URL_WULIU = "http://119.84.26.90:8888/takeService/";//内网地址
+  //  public final static String BASE_URLWEB = "ws://42.96.207.142:8082/gaylive/websocket";//外网
+
+    public final static String BASE_URLWEB = "ws://115.28.86.42:8898/websocket";//外网
+    public final static String BASE_IMG_URL = BASE_URL + "common/file/download.do?storeFileName=";//内网图片地址
+    public final static String BASE_BOVIDEO_URL = "http://pili-media.cyz.lingkj.com/";//视频
+
+
+    // 192.168.0.9:8081
+    public static String makeImageUrl(String url) {
+
+        if (TextUtils.isEmpty(url)) {
+            return "";
+        }
+        if (url.startsWith("http://") || url.startsWith("https://")) {
+            return url;
+        }
+        return BASE_IMG_URL + url;
+    }
+
+    public static String makeImageUrl(String url, int width, int height) {
+        if (TextUtils.isEmpty(url))
+            return "";
+        if (TextUtils.isEmpty(width + "") || TextUtils.isEmpty(height + ""))
+            return BASE_IMG_URL + url + "&imgwidth=" + width + "&imgheight=" + height;
+        return BASE_IMG_URL + url;
+    }
+
+    /**
+     * 加载web
+     */
+    public final static String GOODS_DETAIL = BASE_URL + "app/public/room/getMgooDetail.do?";
+    //    app/public/advertise/getAdverDetail.do?advId=1&advType=1
+    public final static String ADVER_DETAIL = BASE_URL + "app/public/advertise/getAdverDetail.do?";//广告详情
+    //app/private/advertise/getActiveDetail.do?advId=1&advType=2&museId=174&musePassword=123456
+    public final static String HONGBAO_DETAIL = BASE_URL + "app/private/advertise/getActiveDetail.do?";//广告详情
+    //常见问题
+    public final static String commonproblem = BASE_URL + "app/public/system/getHelpDetail.do?";
+
+    //    查询消息详情（web）
+    public final static String message = BASE_URL + "app/private/message/getMessageDetail.do";
+
+
+}

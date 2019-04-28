@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:orientation="vertical"
+              xmlns:fresco="http://schemas.android.com/apk/res-auto"
+              >
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/head_img"
+        android:layout_width="90px"
+        android:layout_height="90px"
+        fresco:placeholderImage="@mipmap/sdd_1"
+        fresco:roundAsCircle="true"
+        fresco:failureImage="@mipmap/sdd_1"
+        fresco:actualImageScaleType="fitXY"
+        fresco:failureImageScaleType="fitXY"/>
+
+</LinearLayout>
+
+

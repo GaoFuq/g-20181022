@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10px">
+    <LinearLayout
+        android:id="@+id/ly"
+        android:layout_width="116px"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/head_img_item"
+            android:layout_width="116px"
+            android:layout_height="116px"
+            android:layout_gravity="center"
+            android:src="@mipmap/zye_10"
+            fresco:actualImageScaleType="fitXY"
+            fresco:failureImage="@mipmap/zbo_5"
+            fresco:failureImageScaleType="fitXY"
+            fresco:placeholderImage="@mipmap/zbo_5"
+            fresco:roundAsCircle="true"
+            />
+
+        <TextView
+            android:id="@+id/nickname_tv_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="小乔木"
+            android:textColor="#242424"
+            android:singleLine="true"
+            android:ellipsize="end"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:src="@mipmap/male_mser_01"
+                />
+
+            <TextView
+                android:id="@+id/watch_num_tv_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="99"
+                android:textColor="#6a6a6a"
+                android:textSize="14sp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

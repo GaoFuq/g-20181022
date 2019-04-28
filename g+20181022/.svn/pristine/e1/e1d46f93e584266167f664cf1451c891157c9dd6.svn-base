@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/temp_toolbar"/>
+    <LinearLayout
+        android:gravity="center|bottom"
+        android:background="@mipmap/lwjs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/my_gift_exchange_crash"
+            android:textColor="#343434"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_margin="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="提现"
+            android:id="@+id/Withdrawals_btn"
+            android:layout_width="250px"
+            android:layout_height="80px"
+            android:background="@drawable/cricler_btn_white"/>
+        <Button
+            android:layout_marginLeft="10dp"
+            android:text="兑换余额"
+            android:id="@+id/exchange_btn"
+            android:layout_width="250px"
+            android:layout_height="80px"
+            android:background="@drawable/cricler_btn_red"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

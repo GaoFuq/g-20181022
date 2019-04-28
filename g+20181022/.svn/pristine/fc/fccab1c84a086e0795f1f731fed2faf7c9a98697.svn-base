@@ -1,0 +1,47 @@
+<resources>
+
+    <dimen name="dp_066">0.66dp</dimen>
+    <dimen name="dp_4">4dp</dimen>
+    <dimen name="dp_6">6dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_14">14dp</dimen>
+    <dimen name="dp_18">18dp</dimen>
+    <dimen name="dp_22">22dp</dimen>
+    <dimen name="dp_36">36dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_60">60px</dimen>
+    <dimen name="dp_72">72dp</dimen>
+    <dimen name="sp_13">13sp</dimen>
+    <dimen name="sp_12">12sp</dimen>
+    <dimen name="sp_14">14sp</dimen>
+    <dimen name="sp_15">15sp</dimen>
+    <dimen name="sp_16">16sp</dimen>
+    <dimen name="sp_18">18sp</dimen>
+    <dimen name="sp_20">20sp</dimen>
+    <dimen name="default_divider_height">1px</dimen>
+    <dimen name="textandiconmargin">10dp</dimen>
+    <dimen name="px_12">12px</dimen>
+    <dimen name="px_25">25px</dimen>
+    <dimen name="font_small">14sp</dimen>
+    <dimen name="padding_size_default">8dp</dimen>
+    <dimen name="popupwindow_menu_item_height">60px</dimen>
+    <item type="dimen" name="dialog_fixed_width_major">60%</item>
+    <!-- The platform's desired fixed width for a dialog along the minor axis
+         (the screen is in portrait). This may be either a fraction or a dimension.-->
+    <item type="dimen" name="dialog_fixed_width_minor">90%</item>
+    <!-- The platform's desired fixed height for a dialog along the major axis
+         (the screen is in portrait). This may be either a fraction or a dimension.-->
+    <item type="dimen" name="dialog_fixed_height_major">60%</item>
+    <!-- The platform's desired fixed height for a dialog along the minor axis
+         (the screen is in landscape). This may be either a fraction or a dimension.-->
+    <item type="dimen" name="dialog_fixed_height_minor">90%</item>
+    <dimen name="controller_height">40dp</dimen>
+    <dimen name="controller_icon_padding">10dp</dimen>
+    <dimen name="controller_text_size">16sp</dimen>
+    <dimen name="default_spacing">10dp</dimen>
+    <dimen name="controller_seekbar_size_n">14dp</dimen>
+    <dimen name="controller_seekbar_size_s">14dp</dimen>
+    <dimen name="controller_seekbar_max_size">1dp</dimen>
+    <dimen name="player_play_btn_size">50dp</dimen>
+    <dimen name="controller_time_text_size">14sp</dimen>
+</resources>

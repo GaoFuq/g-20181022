@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.code.clkj.menggong.activity.comSearch.ActSearch">
+    <include layout="@layout/search_toolbar"/>
+    <com.code.clkj.menggong.base.TempRecyclerView
+        android:id="@+id/act_search_rcy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.code.clkj.menggong.base.TempRecyclerView>
+
+</LinearLayout>

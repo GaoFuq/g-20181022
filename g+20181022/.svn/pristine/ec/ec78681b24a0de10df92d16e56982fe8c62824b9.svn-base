@@ -1,0 +1,114 @@
+package com.code.clkj.menggong.activity.comUserLogin;
+
+import com.code.clkj.menggong.action.TempAction;
+import com.code.clkj.menggong.response.RespActRegister;
+import com.code.clkj.menggong.throwable.ExceptionEngine;
+import com.lf.tempcore.tempConfig.TempLoginConfig;
+import com.lf.tempcore.tempModule.tempRemotComm.TempRemoteApiFactory;
+import com.lf.tempcore.tempResponse.ResponseLoginInfo;
+import com.lf.tempcore.tempResponse.TempResponse;
+
+/**
+ * Created by Administrator on 2017-12-09.
+ */
+
+public class PreActRegisterImpl implements PreActRegisterI {
+
+    private ViewActRegisterI mViewI;
+
+    public PreActRegisterImpl(ViewActRegisterI mViewI ){
+        this.mViewI = mViewI;
+    }
+    @Override
+    public void registerCode(String phone) {
+        TempRemoteApiFactory.executeMethod(TempRemoteApiFactory.createRemoteApi(TempAction.class).registerCode(phone), new TempRemoteApiFactory.OnCallBack<TempResponse>() {
+            @Override
+            public void onSucceed(TempResponse data) {
+                if (data.getFlag()==1){
+                    if (mViewI!=null){
+                        mViewI.registerCodeSuccess(data);
+                    }
+                }else{
+                    if (mViewI != null){
+                        mViewI.toast(data.getMsg());
+                    }
+                }
+            }
+
+            @Override
+            public void onCompleted() {
+
+            }
+
+            @Override
+            public void onError(Throwable e) {
+                if (mViewI != null) {
+                    mViewI.disPro();
+                    mViewI.showConntectError(ExceptionEngine.handleException(e));
+                }
+            }
+        });
+
+    }
+
+    @Override
+    public void appUserRegister(String userName, String password, String code, String registerCode) {
+        TempRemoteApiFactory.executeMethod(TempRemoteApiFactory.createRemoteApi(TempAction.class).appUserRegister(userName, password, code, registerCode), new TempRemoteApiFactory.OnCallBack<RespActRegister>() {
+            @Override
+            public void onSucceed(RespActRegister data) {
+                if (data.getFlag() == 1){
+                    if (mViewI != null){
+                        mViewI.appUserRegisterSuccess(data);
+                    }
+                }else{
+                    if (mViewI != null){
+                        mViewI.toast(data.getMsg());
+                    }
+                }
+            }
+
+            @Override
+            public void onCompleted() {
+
+            }
+
+            @Override
+            public void onError(Throwable e) {
+                if (mViewI != null) {
+                    mViewI.disPro();
+                    mViewI.showConntectError(ExceptionEngine.handleException(e));
+                }
+            }
+        });
+
+    }
+
+    @Override
+    public void userLogin(String museUserName, String musePassword) {
+        TempRemoteApiFactory.executeMethod(TempRemoteApiFactory.createRemoteApi(TempAction.class).userLogin(museUserName, musePassword), new TempRemoteApiFactory.OnCallBack<ResponseLoginInfo>() {
+            @Override
+            public void onSucceed(ResponseLoginInfo data) {
+                if (data.getFlag() == 1){
+                    if (mViewI!= null){
+                        TempLoginConfig.sf_saveLoginInfo(data);
+                        TempLoginConfig.sf_saveLoginState(true);
+                        mViewI.userLoginSuccess(data);
+                    }
+                }
+            }
+
+            @Override
+            public void onCompleted() {
+
+            }
+
+            @Override
+            public void onError(Throwable e) {
+                if (mViewI != null) {
+                    mViewI.disPro();
+                    mViewI.showConntectError(ExceptionEngine.handleException(e));
+                }
+            }
+        });
+    }
+}

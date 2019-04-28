@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/temp_toolbar"/>
+
+    <TextView
+        android:text="这款软件是基于地理位置的关于同志的社交软件。可以发现身边的好基友"
+        android:layout_margin="20dp"
+        android:lineSpacingExtra="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

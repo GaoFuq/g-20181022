@@ -1,0 +1,16 @@
+package com.code.clkj.menggong.activity.comUserLogin;
+
+/**
+ * Created by Administrator on 2017-12-09.
+ */
+
+public interface PreActRegisterI {
+    void registerCode(String phone);
+
+    void appUserRegister(String userName,
+                         String password,
+                         String code,
+                         String registerCode);
+    void userLogin(String museUserName,
+                   String musePassword);
+}

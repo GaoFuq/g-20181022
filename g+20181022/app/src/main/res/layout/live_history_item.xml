@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/mLiveHistoryIcon"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/zye_7" />
+
+    <TextView
+        android:id="@+id/history_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/mLiveHistoryIcon"
+        android:layout_alignLeft="@id/mLiveHistoryIcon"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_marginBottom="5dp"
+        android:text=""
+        android:textColor="#ffffff" />
+    <ImageView
+        android:src="@mipmap/male_mser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/mLiveHistoryIcon"
+        android:layout_marginBottom="8dp"
+        android:layout_toLeftOf="@+id/live_num_tv"
+
+        />
+    <TextView
+        android:id="@+id/live_num_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_alignBottom="@id/mLiveHistoryIcon"
+        android:layout_alignRight="@+id/mLiveHistoryIcon"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="5dp"
+        />
+
+    <ImageView
+        android:id="@+id/del_history"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:src="@mipmap/del"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

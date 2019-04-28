@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<com.lf.tempcore.view.PullScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pullScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <com.lf.tempcore.tempViews.tempPullableViews.PullToRefreshLayout
+        android:id="@+id/frag_home_index_pull_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <com.lf.tempcore.tempViews.tempPullableViews.PullableScrollView
+    android:id="@+id/pullScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.bigkoo.convenientbanner.ConvenientBanner
+            android:id="@+id/convenientBanner"
+            android:layout_width="match_parent"
+            android:layout_height="192px">
+        </com.bigkoo.convenientbanner.ConvenientBanner>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="31px"
+                android:layout_height="31px"
+                android:layout_margin="20px"
+                android:src="@mipmap/rounded_rectangle"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="热门直播"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20px"
+                android:text="更多>"/>
+
+        </LinearLayout>
+        <!--热门直播房间-->
+        <com.lf.tempcore.tempViews.TempNestingGridView
+            android:id="@+id/frag_home_hot_live_gv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="3"
+            android:paddingLeft="20px"
+            android:paddingRight="20px"
+            android:horizontalSpacing="20px"
+            >
+            <!--                    android:horizontalSpacing="20px"
+-->
+            <!--  android:verticalSpacing="20px"-->
+        </com.lf.tempcore.tempViews.TempNestingGridView>
+
+        <!--直播新星-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f4f4f4"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="31px"
+                    android:layout_height="31px"
+                    android:layout_margin="20px"
+                    android:src="@mipmap/icon_1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="直播新星"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20px"
+                    android:text="更多>"/>
+
+            </LinearLayout>
+            <com.code.clkj.menggong.base.TempRecyclerView
+                android:id="@+id/frag_home_new_star_live_gv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp">
+
+            </com.code.clkj.menggong.base.TempRecyclerView>
+
+        </LinearLayout>
+
+
+        <!--推荐直播-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="31px"
+                android:layout_height="31px"
+                android:layout_margin="20px"
+                android:src="@mipmap/tv"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="推荐直播"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20px"
+                android:text="更多>"/>
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/mRoomItems"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+    </com.lf.tempcore.tempViews.tempPullableViews.PullableScrollView>
+    </com.lf.tempcore.tempViews.tempPullableViews.PullToRefreshLayout>
+
+
+</LinearLayout>
+
+    <!--
+    </com.lf.tempcore.view.PullScrollView>-->

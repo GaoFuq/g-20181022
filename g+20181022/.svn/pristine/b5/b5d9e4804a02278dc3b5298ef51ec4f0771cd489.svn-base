@@ -1,0 +1,319 @@
+package com.code.clkj.menggong.fragment.comHome;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
+import com.code.clkj.menggong.R;
+import com.code.clkj.menggong.activity.comAddress.ActAddress;
+import com.code.clkj.menggong.activity.comHomeDetection.ActDetection;
+import com.code.clkj.menggong.activity.comHomefollow.ActHomefollow;
+import com.code.clkj.menggong.activity.comHomepassword.ActPassWord;
+import com.code.clkj.menggong.activity.comHomepassword.ActTuiguang;
+import com.code.clkj.menggong.activity.comLiveApply.ActLiveApplyActivity;
+import com.code.clkj.menggong.activity.comLiveApply.comAuthenticationState.ActAuthenticationState;
+import com.code.clkj.menggong.activity.comLiveHistory.ActShowLiveHistoryActivity;
+import com.code.clkj.menggong.activity.comLiveMyGift.ActMyGiftActivity;
+import com.code.clkj.menggong.activity.comLiveMyOrder.ActMyOrderActivity;
+import com.code.clkj.menggong.activity.comMyWallet.ActMyWalletActivity;
+import com.code.clkj.menggong.activity.comPersonalCenter.PersonalDataActivity;
+import com.code.clkj.menggong.activity.comUserLogin.LoginActivity;
+import com.code.clkj.menggong.base.config.BaseUriConfig;
+import com.code.clkj.menggong.fragment.comHome.comCertifiedAnchor.PreCertifiedHostI;
+import com.code.clkj.menggong.fragment.comHome.comCertifiedAnchor.PreCertifiedHostImpl;
+import com.code.clkj.menggong.fragment.comHome.comCertifiedAnchor.ViewCertifiedHostI;
+import com.code.clkj.menggong.response.RespCheckBalance;
+import com.code.clkj.menggong.response.RespGetAchorApplyStatus;
+import com.code.clkj.menggong.throwable.ExceptionEngine;
+import com.code.clkj.menggong.util.NullUtils;
+import com.code.clkj.menggong.util.TempDataUtils;
+import com.facebook.drawee.view.SimpleDraweeView;
+import com.lf.tempcore.tempConfig.TempLoginConfig;
+import com.lf.tempcore.tempFragment.TempFragment;
+
+import butterknife.Bind;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
+
+
+/**
+ * Created by caoyang on 2017/9/4.
+ * 我的  - 个人中心
+ */
+
+//toolbar_mess_num
+public class
+FragHomeMine extends TempFragment implements ViewCertifiedHostI {
+
+    @Bind(R.id.mHeadIcon)
+    SimpleDraweeView mHeadIcon;    //头像
+    @Bind(R.id.Wallet_tv)
+    TextView Wallet_tv;
+    @Bind(R.id.mUserName)
+    TextView mUserName;   //用户名称
+    @Bind(R.id.mPresent)
+    LinearLayout mPresent;  //我的礼物
+    @Bind(R.id.mOrder)
+    LinearLayout mOrder;    //我的订单
+    @Bind(R.id.mHistory)
+    LinearLayout mHistory;  //浏览历史
+    @Bind(R.id.mCertification)
+    LinearLayout mCertification;  //主播认证
+    @Bind(R.id.mReservation)
+    LinearLayout mReservation;  //检测预约
+    @Bind(R.id.mAttention)
+    LinearLayout mAttention;    //我的关注
+    @Bind(R.id.mPsdManagement)
+    LinearLayout mPsdManagement;  //密码管理
+    @Bind(R.id.mReceiptAddress)
+    LinearLayout mReceiptAddress;  //收货地址管理
+
+    @Bind(R.id.mtuiguang)
+    LinearLayout mtuiguang;  //推广
+
+
+    @Bind(R.id.img)
+    ImageView img;
+
+    @Bind(R.id.login_tv)
+    TextView login_tv;
+
+    public static boolean isRestart = false;
+
+    private int status = -1;//标记认证状态
+    private String mUsceId;
+    private String failureCause;//认证失败原因
+
+    private PreCertifiedHostI mPreI;
+
+
+    @Override
+    protected View initViews(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.frag_home_mine_layout, container, false);
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+//        if (isRestart) {
+//            restart();
+//        }
+        restart();
+    }
+
+    private void restart() {
+        if (TempLoginConfig.sf_getLoginState()) {
+            if (mPreI == null) {
+                mPreI = new PreCertifiedHostImpl(this);
+            }
+
+            mPreI.getMuseEpurse();
+
+            if (NullUtils.isNotEmpty(TempLoginConfig.sf_getSueid())) {
+                login_tv.setVisibility(View.GONE);
+                img.setVisibility(View.VISIBLE);
+            }
+            if (NullUtils.isNotEmpty(TempLoginConfig.sf_getNickName()) && NullUtils.isNotEmpty(TempLoginConfig.sf_getSueid())) {
+                Log.i("登录", TempLoginConfig.sf_getNickName());
+                mUserName.setText(TempLoginConfig.sf_getNickName());
+            }
+            if (NullUtils.isNotEmpty(TempLoginConfig.sf_getImage()) && NullUtils.isNotEmpty(TempLoginConfig.sf_getSueid())) {
+                mHeadIcon.setImageURI(BaseUriConfig.makeImageUrl(TempLoginConfig.sf_getImage()));
+            }
+        } else {
+            login_tv.setVisibility(View.VISIBLE);
+            img.setVisibility(View.GONE);
+            mUserName.setText("未登录");
+        }
+        isRestart = false;
+    }
+
+    @Override
+    protected void setListeners() {
+//                if (TempLoginConfig.sf_getLoginState()) {
+//                    if (NullUtils.isNotEmpty(TempLoginConfig.sf_getSueid())) {
+//                        login_tv.setVisibility(View.GONE);
+//                        img.setVisibility(View.VISIBLE);
+//                    }
+//                    if (NullUtils.isNotEmpty(TempLoginConfig.sf_getNickName()) && NullUtils.isNotEmpty(TempLoginConfig.sf_getSueid())) {
+//                        Log.i("登录",TempLoginConfig.sf_getNickName());
+//                        mUserName.setText(TempLoginConfig.sf_getNickName());
+//                    }
+//                    if (NullUtils.isNotEmpty(TempLoginConfig.sf_getMuseEpurse()) && NullUtils.isNotEmpty(TempLoginConfig.sf_getSueid())) {
+//                        Wallet_tv.setText("钱包余额:" + TempLoginConfig.sf_getMuseEpurse());
+//                    }
+//                    if (NullUtils.isNotEmpty(TempLoginConfig.sf_getImage())&&NullUtils.isNotEmpty(TempLoginConfig.sf_getSueid())){
+//                        mHeadIcon.setImageURI(BaseUriConfig.makeImageUrl(TempLoginConfig.sf_getImage()));
+//                    }
+//                }else{
+//                    login_tv.setVisibility(View.VISIBLE);
+//                    img.setVisibility(View.GONE);
+//                    mUserName.setText("未登录");
+//                }
+    }
+
+    @Override
+    protected void bundleValues() {
+        if (TempLoginConfig.sf_getLoginState()) {
+            if (mPreI == null) {
+                mPreI = new PreCertifiedHostImpl(this);
+                mPreI.getMuseEpurse();
+            }
+        }
+        restart();
+    }
+
+    @Override
+    @OnClick({R.id.mHeadIcon, R.id.mUserName, R.id.mPresent,
+            R.id.mOrder, R.id.mHistory, R.id.mCertification,
+            R.id.mReservation, R.id.mPsdManagement,
+            R.id.mReceiptAddress, R.id.mAttention, R.id.Wallet_tv, R.id.login_tv, R.id.log_rl,R.id.mtuiguang})
+    protected void OnViewClicked(View v) {
+        switch (v.getId()) {
+            case R.id.log_rl:
+                if (TempLoginConfig.sf_getLoginState()) {
+                    startActivity(new Intent(getContext(), PersonalDataActivity.class));
+                }
+                break;
+            case R.id.mHeadIcon:
+                Intent intentmHeadIcon = new Intent(getContext(), PersonalDataActivity.class);
+                startActivity(intentmHeadIcon);
+                break;
+            //            case R.id.mUserName:
+            //                //TODO 还需要判断是否已经登录
+            //                Intent intent = new Intent(getActivity(), LoginActivity.class);
+            //                startActivity(intent);
+            //                break;
+            case R.id.Wallet_tv:
+                Intent intentWallet_tv = new Intent(getActivity(), ActMyWalletActivity.class);
+                startActivity(intentWallet_tv);
+                break;
+            case R.id.mPresent:
+                if (TempLoginConfig.sf_getLoginState()) {
+                    Intent intentmPresent = new Intent(getActivity(), ActMyGiftActivity.class);
+                    startActivity(intentmPresent);
+                } else {
+                    startActivity(new Intent(getActivity(), LoginActivity.class));
+                }
+
+                break;
+
+            case R.id.mOrder:
+                Intent intentmOrder = new Intent(getActivity(), ActMyOrderActivity.class);
+                startActivity(intentmOrder);
+                break;
+
+            case R.id.mHistory:
+                Intent intentmHistory = new Intent(getActivity(), ActShowLiveHistoryActivity.class);
+                startActivity(intentmHistory);
+                break;
+
+            case R.id.mCertification://主播认证
+                if (TempLoginConfig.sf_getLoginState()) {
+                    mPreI.getAchorApplyStatus();
+                } else {
+                    Intent intent = new Intent(getActivity(), LoginActivity.class);
+                    startActivity(intent);
+                }
+                break;
+
+            case R.id.mReservation:
+                Intent intentmReservation = new Intent(getActivity(), ActDetection.class);
+                startActivity(intentmReservation);
+                break;
+
+            case R.id.mPsdManagement:
+                Intent intentPsdManagement = new Intent(getActivity(), ActPassWord.class);
+                startActivity(intentPsdManagement);
+                break;
+
+            case R.id.mReceiptAddress:
+                Intent intent_address = new Intent(getActivity(), ActAddress.class);
+                startActivity(intent_address);
+                break;
+            //关注
+            case R.id.mAttention:
+                Intent intentAttention = new Intent(getActivity(), ActHomefollow.class);
+                startActivity(intentAttention);
+                break;
+            case R.id.login_tv:
+                Intent intentLogin = new Intent(getActivity(), LoginActivity.class);
+                startActivity(intentLogin);
+                getActivity().finish();
+                break;
+            case R.id.mtuiguang:
+                Intent intentAttention1= new Intent(getActivity(), ActTuiguang.class);
+                startActivity(intentAttention1);
+
+
+                break;
+        }
+
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        // TODO: inflate a fragment view
+        View rootView = super.onCreateView(inflater, container, savedInstanceState);
+        ButterKnife.bind(this, rootView);
+        return rootView;
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        ButterKnife.unbind(this);
+    }
+
+    @Override
+    public void toast(String message) {
+        showToast(message);
+    }
+
+    @Override
+    public void showConntectError(ExceptionEngine.ApiException e) {
+        toast(e.message);
+    }
+
+    @Override
+    public void showPro() {
+        showProgressDialog(false);
+    }
+
+    @Override
+    public void disPro() {
+        dismissProgressDialog();
+    }
+
+    @Override
+    public void getAchorApplyStatusSuccess(RespGetAchorApplyStatus data) {
+
+        if (data.getResult() != null) {
+            status = TempDataUtils.string2Int(data.getResult().getUsceStatus());
+            mUsceId = data.getResult().getUsceId();
+            failureCause = data.getResult().getFailureCause();
+            if (status == 0) {
+                startActivity(new Intent(getActivity(), ActLiveApplyActivity.class));
+            } else {
+                Intent intentmCertification = new Intent(getActivity(), ActAuthenticationState.class);
+                intentmCertification.putExtra("state", status);
+                intentmCertification.putExtra("usceId", mUsceId);
+                intentmCertification.putExtra("failureCause", failureCause);
+                startActivity(intentmCertification);
+            }
+        } else {
+            startActivity(new Intent(getActivity(), ActLiveApplyActivity.class));
+        }
+    }
+
+    @Override
+    public void getMuseEpurseSuccess(RespCheckBalance data) {
+        Wallet_tv.setText("钱包余额:" + data.getResult().getEpurse());
+    }
+}

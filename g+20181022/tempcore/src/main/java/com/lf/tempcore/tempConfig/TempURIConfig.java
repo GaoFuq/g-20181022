@@ -1,0 +1,70 @@
+package com.lf.tempcore.tempConfig;
+
+import android.text.TextUtils;
+
+/**
+ * Created by Administrator on 2015/11/14.
+ */
+public class TempURIConfig {
+
+    public final static String BASE_SERVICE_URL = "http://www.lingkj.com:8898/";//内网地址
+
+   // public final static String BASE_SERVICE_URL = "http://115.28.86.42:8898/";//内网地址
+    //public final static String BASE_SERVICE_URL = "http://42.96.207.142:8082/gaylive/";//外网地址
+//        public final static String BASE_SERVICE_URL = "http://192.168.0.6:8080/gaylive/";//外网地址
+    public final static String BASE_IMG_URL = BASE_SERVICE_URL + "common/file/download.do?storeFileName=";//外//外
+//    public final static String BASE_IMG_URL = BASE_SERVICE_URL + "gaylive/common/file/download.do?storeFileName=";//外//外
+
+
+
+    public static String makeImageUrl(String url) {
+        if (TextUtils.isEmpty(url)) {
+            return "";
+        }
+        if (url.startsWith("http://") || url.startsWith("https://")) {
+            return url;
+        }
+        return BASE_IMG_URL + url;
+    }
+
+    public static String makeImageUrl(String url, int width, int height) {
+        if (TextUtils.isEmpty(url))
+            return "";
+        if (TextUtils.isEmpty(width + "") || TextUtils.isEmpty(height + ""))
+            return BASE_IMG_URL + url + "&imgwidth=" + width + "&imgheight=" + height;
+        return BASE_IMG_URL + url;
+    }
+
+
+
+    //<!--以下为JSP或者HTML页面-->
+    //关于我们
+//    public final static String PLARMINFO = BASE_SERVICE_URL+"dentistpi/app/public/mall/queryProject.do";
+//    //用户协议
+//    public final static String USER_AGRESSMENT = BASE_SERVICE_URL+"userAgreement.html";
+//    //广告详情
+//    public final static String AD_DETAIL = BASE_SERVICE_URL+"app/public/mall/queryAdvertismentDetails.do?id=";
+//    //消息中心
+//    public final static String MESSAGE_CENTER = BASE_SERVICE_URL+"dentistpi/app/private/mall/queryMallMessageDetail.do?museId=";
+//
+//    //app下载地址
+//    public final static String APP_DOWNLOAD = BASE_SERVICE_URL+"dentistpi/portal/appDownload.do";
+
+    //<!--以下为外网--->
+    //关于我们
+    public final static String PLARMINFO = BASE_SERVICE_URL+"app/public/mall/queryProject.do";
+
+
+
+
+
+    //用户协议
+    public final static String USER_AGRESSMENT = BASE_SERVICE_URL+"userAgreement.html";
+    //广告详情
+    public final static String AD_DETAIL = BASE_SERVICE_URL+"app/public/mall/queryAdvertismentDetails.do?id=";
+    //消息中心
+    public final static String MESSAGE_CENTER = BASE_SERVICE_URL+"app/private/mall/queryMallMessageDetail.do?museId=";
+
+    //app下载地址
+    public final static String APP_DOWNLOAD = BASE_SERVICE_URL+"portal/appDownload.do";
+}

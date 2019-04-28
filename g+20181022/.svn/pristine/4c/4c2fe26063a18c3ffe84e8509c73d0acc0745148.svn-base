@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--房间1-->
+        <RelativeLayout
+            android:id="@+id/mRoom"
+            android:layout_width="410px"
+            android:layout_height="410px"
+            android:layout_margin="5dp"
+            >
+
+            <ImageView
+                android:id="@+id/mRoomIcon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@mipmap/zye_4"/>
+
+            <TextView
+                android:id="@+id/mRoomTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/mRoomIcon"
+                android:layout_margin="5dp"
+                android:text="做个安静的美男子"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+
+                />
+
+            <TextView
+                android:id="@+id/mUserCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/mRoomIcon"
+                android:layout_alignParentRight="true"
+                android:layout_margin="5dp"
+                android:text="233"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_alignBottom="@id/mRoomIcon"
+                android:layout_marginBottom="8dp"
+                android:layout_toStartOf="@+id/mUserCount"
+                android:src="@mipmap/male_mser"
+                />
+        </RelativeLayout>
+
+        <!--房间2-->
+        <RelativeLayout
+            android:id="@+id/mRoom2"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@id/mRoom"
+            >
+
+            <ImageView
+                android:id="@+id/mRoomIcon2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@mipmap/zye_5"/>
+
+            <TextView
+                android:id="@+id/mRoomTitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/mRoomIcon2"
+                android:layout_margin="5dp"
+                android:text="做个安静的美男子"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:id="@+id/mUserCount2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/mRoomIcon2"
+                android:layout_alignParentRight="true"
+                android:layout_margin="5dp"
+                android:text="233"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_alignBottom="@id/mRoomIcon2"
+                android:layout_marginBottom="8dp"
+                android:layout_toStartOf="@+id/mUserCount2"
+                android:src="@mipmap/male_mser"
+                />
+        </RelativeLayout>
+
+        <!--房间3-->
+        <RelativeLayout
+            android:id="@+id/mRoom3"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_below="@id/mRoom2"
+            android:layout_marginBottom="5dp"
+            android:layout_toEndOf="@id/mRoom"
+            >
+
+            <ImageView
+                android:id="@+id/mRoomIcon3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@mipmap/zye_6"/>
+
+            <TextView
+                android:id="@+id/mRoomTitle3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/mRoomIcon3"
+                android:layout_margin="5dp"
+                android:text="做个安静的美男子"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:id="@+id/mUserCount3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/mRoomIcon3"
+                android:layout_alignParentRight="true"
+                android:layout_margin="5dp"
+                android:text="233"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_alignBottom="@id/mRoomIcon3"
+                android:layout_marginBottom="8dp"
+
+                android:layout_toStartOf="@+id/mUserCount3"
+                android:src="@mipmap/male_mser"
+                />
+        </RelativeLayout>
+
+        <!--房间4-->
+        <RelativeLayout
+            android:id="@+id/mRoom4"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_below="@id/mRoom"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            >
+
+            <ImageView
+                android:id="@+id/mRoomIcon4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@mipmap/zye_7"/>
+
+            <TextView
+                android:id="@+id/mRoomTitle4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/mRoomIcon4"
+                android:layout_margin="5dp"
+                android:text="做个安静的美男子"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:id="@+id/mUserCount4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/mRoomIcon4"
+                android:layout_alignParentRight="true"
+                android:layout_margin="5dp"
+                android:text="233"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_alignBottom="@id/mRoomIcon4"
+                android:layout_marginBottom="8dp"
+                android:layout_toStartOf="@+id/mUserCount4"
+                android:src="@mipmap/male_mser"
+                />
+        </RelativeLayout>
+
+        <!--房间5-->
+        <RelativeLayout
+            android:id="@+id/mRoom5"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_below="@id/mRoom"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@id/mRoom4"
+            >
+
+            <ImageView
+                android:id="@+id/mRoomIcon5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@mipmap/zye_8"/>
+
+            <TextView
+                android:id="@+id/mRoomTitle5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/mRoomIcon5"
+                android:layout_margin="5dp"
+                android:text="做个安静的美男子"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:id="@+id/mUserCount5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/mRoomIcon5"
+                android:layout_alignParentRight="true"
+                android:layout_margin="5dp"
+                android:text="233"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_alignBottom="@id/mRoomIcon5"
+                android:layout_marginBottom="8dp"
+
+                android:layout_toStartOf="@+id/mUserCount5"
+                android:src="@mipmap/male_mser"
+                />
+            <!--         android:background="#80ffffff"-->
+        </RelativeLayout>
+
+        <!--房间6-->
+        <RelativeLayout
+            android:id="@+id/mRoom6"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_below="@id/mRoom"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@id/mRoom5"
+            >
+
+            <ImageView
+                android:id="@+id/mRoomIcon6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@mipmap/zye_9"/>
+
+            <TextView
+                android:id="@+id/mRoomTitle6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/mRoomIcon6"
+                android:layout_margin="5dp"
+                android:text="做个安静的美男子"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:id="@+id/mUserCount6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/mRoomIcon6"
+                android:layout_alignParentRight="true"
+                android:layout_margin="5dp"
+                android:text="233"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_alignBottom="@id/mRoomIcon6"
+                android:layout_marginBottom="8dp"
+                android:layout_toStartOf="@+id/mUserCount6"
+                android:src="@mipmap/male_mser"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

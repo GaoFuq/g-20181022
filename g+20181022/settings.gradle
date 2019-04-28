@@ -1,0 +1,1 @@
+include ':app', ':imagepicker', ':tempcore', ':CallKit', ':CallLib', ':IMLib', ':IMKit',':temp_share_pay' ,':pickerview'

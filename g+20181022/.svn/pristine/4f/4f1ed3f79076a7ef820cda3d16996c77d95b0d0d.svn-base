@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff"
+              xmlns:fresco="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical">
+
+    <include layout="@layout/temp_toolbar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+
+        >
+
+
+    <ImageView
+        android:id="@+id/friends_circle_top_img"
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:scaleType="fitXY"
+        />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/my_head_img"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_gravity="center"
+            fresco:actualImageScaleType="fitXY"
+            fresco:failureImage="@mipmap/zbo_5"
+            fresco:failureImageScaleType="fitXY"
+            fresco:placeholderImage="@mipmap/zbo_5"
+            fresco:roundAsCircle="true"/>
+
+        <TextView
+            android:id="@+id/my_nick_name_tx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+    </FrameLayout>
+
+    <com.code.clkj.menggong.base.TempRecyclerView
+        android:id="@+id/Circle_friends"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.code.clkj.menggong.base.TempRecyclerView>
+
+
+</LinearLayout>

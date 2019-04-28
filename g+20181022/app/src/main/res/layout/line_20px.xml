@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:id="@+id/line_other"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="#f4f4f4"
+              android:layout_height="10px">
+		<!--toolbar 之下的空白-->
+</LinearLayout>

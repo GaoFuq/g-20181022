@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              xmlns:tool="http://schemas.android.com/tools"
+              xmlns:fresco="http://schemas.android.com/apk/res-auto"
+
+              android:gravity="center_vertical"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:paddingLeft="30px"
+        android:paddingRight="30px"
+        android:paddingBottom="20px"
+        android:paddingTop="20px"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:visibility="gone"
+            android:id="@+id/friends_hend_img"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_gravity="center"
+            fresco:actualImageScaleType="fitXY"
+            fresco:failureImage="@mipmap/zbo_5"
+            fresco:failureImageScaleType="fitXY"
+            fresco:placeholderImage="@mipmap/zbo_5"
+            fresco:roundAsCircle="true"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+               <!---->
+                <TextView
+
+                    android:id="@+id/mRoomTitle"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/mRoomIcon"
+                    android:text="做个安静的美男子"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="2.3Km"
+                    android:textColor="#404040"
+                    android:textSize="15sp"/>
+               <!-- -->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/cricler_btn"
+                >
+
+                <ImageView
+                    android:id="@+id/image_state"
+                    android:src="@mipmap/persondd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/liaotian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="22dp"
+
+                    android:layout_marginRight="3dp"
+
+                    android:gravity="center"
+                    android:text="55"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:id="@+id/friends_item_sex_tx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tool:text = ""
+
+                    android:textColor="#a1a1a1"
+                    />
+                <TextView
+                    android:id="@+id/friends_item_address_tx"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center_vertical"
+                    tool:text = "ddddddddd"
+                    android:textColor="#a1a1a1"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:background="#e7e7e7"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="15px"
+        />
+
+
+
+
+</LinearLayout>

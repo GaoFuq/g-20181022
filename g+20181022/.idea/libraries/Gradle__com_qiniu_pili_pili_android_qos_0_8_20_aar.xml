@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.qiniu.pili:pili-android-qos:0.8.20@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/4dc5adb445782ae959c22abc97755de5bf6eed8b/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/4dc5adb445782ae959c22abc97755de5bf6eed8b/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <include layout="@layout/temp_toolbar"/>
+
+        <EditText
+            android:id="@+id/content"
+            android:background="@drawable/cricler_btn_white"
+            android:hint="有什么要说的，尽管来咆哮吧...（200字以内）"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            android:gravity="top"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:textColor="#b9b9b9"
+            android:textColorHint="#b9b9b9"
+            android:maxLength="200"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5" />
+    <EditText
+        android:id="@+id/phone_num"
+        android:background="@drawable/cricler_btn_white"
+        android:hint="你的联系方式(手机号  QQ   邮箱 )"
+        android:paddingLeft="10dp"
+        android:textSize="14sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="#b9b9b9"
+        android:textColorHint="#b9b9b9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25" />
+    <TextView
+        android:id="@+id/save_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/cricler_btn"
+        android:gravity="center"
+        android:text="确认"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+</LinearLayout>

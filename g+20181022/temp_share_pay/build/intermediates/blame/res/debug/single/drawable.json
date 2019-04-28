@@ -1,0 +1,506 @@
+[
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_action_back_selected.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_action_back_selected.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_tx_on.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_tx_on.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\weibosdk_common_shadow_top.9.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\weibosdk_common_shadow_top.9.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qzone_off.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_qzone_off.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\retry_btn_selector.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\retry_btn_selector.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_facebook.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_facebook.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_at_button.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_at_button.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_nav_bar_bg.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_nav_bar_bg.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_window_shadow_pad.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_window_shadow_pad.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_douban_off.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_douban_off.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_login_pressed.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_button_login_pressed.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_red_blue.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_button_red_blue.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_share_pic.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_share_pic.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_tx_off.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_tx_off.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sidebar_selected.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_sidebar_selected.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_follow_off.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_follow_off.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_location_on.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_location_on.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_back_bt_normal.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_title_back_bt_normal.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_default_avatar.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_default_avatar.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_button_right.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_title_tab_button_right.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_back_bt_selected.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_title_back_bt_selected.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_location_off.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_location_off.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_share_to_button.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_share_to_button.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wxcircle.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_wxcircle.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_location_ic.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_location_ic.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_grey_blue.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_button_grey_blue.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_google.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_google.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_right_bt_selected.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_title_right_bt_selected.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\sina_web_default.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\sina_web_default.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_follow_on.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_follow_on.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qzone_on.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_qzone_on.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_shape_solid_black.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_shape_solid_black.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_action_back.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_action_back.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sidebar_normal.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_sidebar_normal.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sina.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_sina.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_twitter.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_twitter.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_share_transparent_corner.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_share_transparent_corner.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_search_icon.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_search_icon.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_at_selected.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_at_selected.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_oauth_check_off.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_oauth_check_off.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_right_pressed.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_title_tab_right_pressed.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_shape_solid_grey.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_shape_solid_grey.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_douban_on.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_douban_on.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\gradient.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\gradient.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_share_music.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_share_music.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wechat.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_wechat.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_login_normal.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_button_login_normal.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_red.9.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_button_red.9.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_white_blue.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_button_white_blue.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_right_bt_normal.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_title_right_bt_normal.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_follow_check.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_follow_check.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_action_back_normal.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_action_back_normal.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sidebar_selector.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_sidebar_selector.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_oauth_check.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_oauth_check.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_share_video.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_share_video.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_light_bar_bg.9.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_light_bar_bg.9.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qq_off.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_qq_off.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_fetch_image.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_fetch_image.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_left_normal.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_title_tab_left_normal.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_white.9.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_button_white.9.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_left_pressed.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_title_tab_left_pressed.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_right_normal.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_title_tab_right_normal.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qq_on.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_qq_on.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_button_left.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_title_tab_button_left.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\retry_btn_press.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\retry_btn_press.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sina_off.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_sina_off.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wechat_gray.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_wechat_gray.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_blue.9.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_button_blue.9.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\wechat_fav.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\wechat_fav.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_renren_on.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_renren_on.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_login.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_button_login.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wxcircle_gray.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_wxcircle_gray.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_at_normal.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_at_normal.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qzone.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_qzone.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sina_on.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_sina_on.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_back_icon.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_back_icon.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_grey.9.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_button_grey.9.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_refersh.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_refersh.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_oauth_check_on.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_oauth_check_on.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_back_bt.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_title_back_bt.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_x_button.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_x_button.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_bind_bg.9.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_bind_bg.9.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qq.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_qq.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_right_bt.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_title_right_bt.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_renren_off.png",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_renren_off.png"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_btn_bg.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_btn_bg.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\retry_btn_default.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\retry_btn_default.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\clkj\\.android\\build-cache\\6964450a55a4200b4387458f9ee6e91ede63ffc6\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_shareboard_item_background.xml",
+        "source": "D:\\G+bug\\g+20181022\\g+20181022\\temp_share_pay\\src\\main\\res\\drawable\\umeng_socialize_shareboard_item_background.xml"
+    }
+]

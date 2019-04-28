@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                   android:id="@+id/toolbar_top"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="?attr/actionBarSize"
+                                   android:background="#ffffff"
+                                   android:gravity="center"
+                                   android:minHeight="?attr/actionBarSize"
+                                   app:contentInsetLeft="0dp"
+                                   app:contentInsetStart="0dp"
+                                   app:layout_collapseMode="pin">
+    <!--?attr/actionBarSize   android:minHeight="?attr/actionBarSize"-->
+    <!--首页-->
+    <LinearLayout
+        android:id="@+id/toolbar_search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ccc"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        >
+
+        <ImageView
+            android:id="@+id/toolbar_search_address_iv"
+            android:layout_width="48px"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="10px"
+            android:src="@mipmap/icon"/>
+
+        <TextView
+            android:id="@+id/toolbar_search_address_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="大渡口区"
+            android:textSize="17sp"/>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20px"
+            android:layout_weight="1"
+            android:drawablePadding="20px"
+            android:paddingBottom="5px"
+            android:paddingLeft="10px"
+            android:paddingRight="20px"
+            android:paddingTop="5px"
+            >
+
+            <EditText
+                android:id="@+id/toolbar_search_ed"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20px"
+                android:background="@drawable/search_bg"
+                android:drawablePadding="20px"
+                android:paddingBottom="5px"
+                android:paddingLeft="10px"
+                android:paddingRight="20px"
+                android:paddingTop="5px"
+                android:singleLine="true"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/act_home_icon_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="20dp"
+                android:src="@mipmap/icon_search_1"
+                />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/toolbar_search_address_gr"
+            android:layout_width="48px"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20px"
+            android:src="@mipmap/user_group"
+            />
+    </LinearLayout>
+    <!--一般 灰色背景-->
+
+    <FrameLayout
+        android:id="@+id/toolbar_normal_w"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ccc"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <!--消息-->
+        <RelativeLayout
+            android:id="@+id/toolbar_mess_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="20px"
+            android:gravity="center"
+            android:visibility="gone"
+            >
+
+            <ImageView
+                android:id="@+id/toolbar_mess_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:scaleType="centerInside"
+                android:src="@mipmap/grzx_1"/>
+
+            <TextView
+                android:id="@+id/toolbar_mess_num"
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12px"
+                android:layout_marginLeft="30px"
+                android:background="@drawable/shape_num"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="#fff"
+                android:textSize="8sp"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/toolbar_back"
+            android:layout_width="48px"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="10px"
+            android:src="@mipmap/back"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Toolbar Title"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+        <!--附近-->
+        <ImageView
+            android:id="@+id/toolbar_right_fj"
+            android:layout_width="48px"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px"
+            android:src="@mipmap/tb_1"
+            android:visibility="gone"/>
+        <!--筛选-->
+        <ImageView
+            android:id="@+id/toolbar_right_setting"
+            android:layout_width="48px"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px"
+            android:src="@mipmap/grzx_2"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+</android.support.v7.widget.Toolbar>

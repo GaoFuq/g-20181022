@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/anchor_title"
+                android:textColor="#3c3b3b"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:text="打赏花开一地主播"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/anchor_time"
+                android:textColor="#727272"
+                android:layout_marginTop="5dp"
+                android:textSize="10sp"
+                android:layout_gravity="center|left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2017-03-04 11:30"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/consumption"
+                android:textColor="#f70052"
+                android:textSize="18sp"
+                android:layout_marginRight="30dp"
+                android:layout_gravity="center"
+                android:text="-68"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#e7e7e7" />
+
+</LinearLayout>

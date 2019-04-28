@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+    <com.pili.pldroid.player.widget.PLVideoView
+        android:id="@+id/player"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:id="@+id/CoverView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:src="@mipmap/circle"
+       />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/act_live_head_img"
+                android:layout_width="72px"
+                android:layout_height="72px"
+                android:layout_marginLeft="20px"
+                android:src="@mipmap/zbo_3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15px"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/act_live_nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5px"
+                android:text="翻滚吧蛋炒饭"
+                android:textColor="#A9A9A9"
+                android:textSize="25px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10px"
+                android:text="00:14:20"
+                android:textColor="#A9A9A9"
+                android:textSize="25px" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30px">
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/cancle_img"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:layout_marginLeft="150dp"
+                android:src="@mipmap/zbo_7" />
+            <ImageView
+                android:id="@+id/camera_switch_editex"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:layout_marginLeft="150dp"
+                android:src="@mipmap/zbo_7" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:layout_marginTop="10px"
+                android:text="32人在线观看"
+                android:textColor="#A9A9A9"
+                android:textSize="25px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30px"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10px"
+                android:layout_marginRight="10px"
+                android:src="@mipmap/zbo_4" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10px"
+                android:layout_marginRight="10px"
+                android:src="@mipmap/zbo_5" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10px"
+                android:layout_marginRight="10px"
+                android:src="@mipmap/zbo_6" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10px"
+                android:layout_marginRight="10px"
+                android:src="@mipmap/zbo_8" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10px"
+                android:layout_marginRight="10px"
+                android:src="@mipmap/zbo_9" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10px"
+                android:layout_marginRight="10px"
+                android:src="@mipmap/zbo_17" />
+        </LinearLayout>
+
+    </LinearLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/look_live_qianghongbao"
+            android:layout_gravity="right"
+            android:layout_margin="40px"
+            />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="left|center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="56px">
+            <TextView
+                android:layout_marginLeft="5px"
+                android:textColor="#ffb4cd"
+                android:textSize="35px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="小乔木"/>
+            <TextView
+                android:layout_marginLeft="20px"
+                android:textColor="#A9A9A9"
+                android:textSize="35px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="今天外面的天气超级热"/>
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="30px">
+
+        <ImageView
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:src="@mipmap/zbo_10" />
+
+        <ImageView
+            android:id="@+id/live_camera_change"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_marginLeft="15px"
+            android:src="@mipmap/look_live_share" />
+
+        <ImageView
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_marginLeft="435px"
+            android:layout_gravity="right"
+            android:src="@mipmap/look_live_zhubo_shop" />
+        <ImageView
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_marginLeft="15px"
+            android:layout_gravity="right"
+            android:src="@mipmap/look_live_zhubo_gift" />
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/LoadingView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="加载中..."
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:onClick="onClickSwitchScreen"
+            android:src="@mipmap/ic_switch_screen" />
+
+    </LinearLayout>
+</FrameLayout>

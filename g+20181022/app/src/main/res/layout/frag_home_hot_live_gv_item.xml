@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    >
+    <!--首頁直播間的item-->
+    <ImageView
+        android:id="@+id/mRoomIcon"
+        android:layout_width="250px"
+        android:layout_height="230px"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/zye_4"
+        />
+    <ImageView
+        android:id="@+id/img_state"
+        android:visibility="gone"
+        android:layout_alignRight="@id/mRoomIcon"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:src="@mipmap/line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/mRoomTitle"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/mRoomIcon"
+        android:layout_margin="5dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="安静"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:id="@+id/mUserCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/mRoomIcon"
+        android:layout_alignRight="@id/mRoomIcon"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5px"
+        android:text="233"
+        android:textColor="#ffffff"
+        android:textSize="12sp"/>
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignBottom="@id/mRoomIcon"
+        android:layout_toStartOf="@+id/mUserCount"
+        android:src="@mipmap/male_mser"
+        android:layout_marginBottom="5dp"
+        />
+
+
+</RelativeLayout>

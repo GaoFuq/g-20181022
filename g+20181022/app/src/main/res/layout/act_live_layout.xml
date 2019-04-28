@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:fresco="http://schemas.android.com/apk/res-auto"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+    >
+
+    <!--<SurfaceView
+        android:id="@+id/ext_camerapreview_surfaceview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>-->
+    <com.code.clkj.menggong.activity.comCameraStreaming.CameraPreviewFrameView
+        android:id="@+id/cameraPreview_surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="20px"
+            android:orientation="horizontal">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/act_live_head_img"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_gravity="center"
+                fresco:actualImageScaleType="fitXY"
+                fresco:failureImage="@mipmap/zbo_4"
+                fresco:failureImageScaleType="fitXY"
+                fresco:placeholderImage="@mipmap/zbo_4"
+                fresco:roundAsCircle="true"/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15px"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/act_live_nickname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5px"
+                    android:text=""
+                    android:textColor="#A9A9A9"
+                    android:textSize="25px"/>
+
+                <TextView
+                    android:id="@+id/timer_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10px"
+                    android:text=""
+                    android:textColor="#A9A9A9"
+                    android:textSize="25px"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30px"
+                android:gravity="right">
+
+                <ImageView
+                    android:id="@+id/camera_switch_editex"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_marginRight="50px"
+                    android:src="@mipmap/zbo_7"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/people_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="10px"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#A9A9A9"
+                    android:textSize="25px"/>
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/act_live_head_img_nickname"
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    android:layout_gravity="center"
+                    fresco:actualImageScaleType="fitXY"
+                    fresco:failureImage="@mipmap/zbo_4"
+                    fresco:failureImageScaleType="fitXY"
+                    fresco:placeholderImage="@mipmap/zbo_4"
+                    fresco:roundAsCircle="true"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30px"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/phb_rec"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </android.support.v7.widget.RecyclerView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/extcapstreaming_ly"
+                android:layout_width="500px"
+                android:layout_height="600px"
+                android:layout_gravity="bottom"
+                android:layout_margin="15px"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.lf.tempcore.recyclerview.LRecyclerView
+                            android:id="@+id/recycler_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            />
+
+                    </FrameLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="30px">
+
+            <ImageView
+                android:id="@+id/send_message_img"
+                android:layout_width="80px"
+                android:layout_height="80px"
+                android:src="@mipmap/zbo_10"/>
+
+            <ImageView
+                android:id="@+id/live_camera_change"
+                android:layout_width="80px"
+                android:layout_height="80px"
+                android:layout_marginLeft="30px"
+                android:src="@mipmap/zbo_11"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:id="@+id/red_envelopes_img"
+                android:layout_width="80px"
+                android:layout_height="80px"
+                android:layout_marginRight="20px"
+                android:src="@mipmap/zbo_12"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/stream_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/transparent"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#00ff00"
+
+        />
+
+    <Button
+        android:id="@+id/encoding_mirror_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+
+        android:text="Mirror\n(Encode)"
+        android:visibility="gone"/>
+
+    <include
+        layout="@layout/status"
+        android:visibility="gone"/>
+
+    <include
+        layout="@layout/camera_button_holder"
+        android:visibility="gone"/>
+</FrameLayout>

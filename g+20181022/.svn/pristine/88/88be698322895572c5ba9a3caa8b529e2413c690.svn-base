@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/circle_friend_content_img"
+        android:layout_width="163px"
+        android:layout_height="163px"
+        fresco:actualImageScaleType="fitXY"
+        fresco:failureImage="@mipmap/zbo_5"
+        fresco:failureImageScaleType="fitXY"/>
+    <!--     fresco:placeholderImage="@mipmap/zbo_5"-->
+
+</LinearLayout>

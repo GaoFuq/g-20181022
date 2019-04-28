@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <include layout="@layout/normal_toolbar" />
+
+    <FrameLayout
+        android:id="@+id/act_home_body"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#fff">
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#0000"
+        android:orientation="vertical">
+
+        <!--f70052 262626-->
+        <!--底部-->
+        <LinearLayout
+            android:id="@+id/home_bottom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/shape_home_bg"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="10px"
+            android:paddingRight="101px"
+            android:paddingTop="10px">
+
+            <FrameLayout
+                android:id="@+id/act_home_bar_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="onTabClicked">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10px"
+                    android:layout_marginTop="10px"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/act_home_bar_1_iv"
+                        android:layout_width="44px"
+                        android:layout_height="44px"
+                        android:src="@mipmap/rounded_1" />
+
+                    <TextView
+                        android:id="@+id/act_home_bar_1_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10px"
+                        android:text="直播"
+                        android:textColor="#f70052"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/act_home_bar_1_num"
+                    android:layout_width="30px"
+                    android:layout_height="30px"
+                    android:layout_gravity="center|top"
+                    android:layout_marginLeft="10px"
+                    android:background="@drawable/shape_num"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="#ffffff"
+                    android:textSize="8sp"
+                    android:visibility="invisible" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/act_home_bar_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="onTabClicked">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10px"
+                    android:layout_marginTop="10px"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/act_home_bar_2_iv"
+                        android:layout_width="44px"
+                        android:layout_height="44px"
+                        android:src="@mipmap/compass" />
+
+                    <TextView
+                        android:id="@+id/act_home_bar_2_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10px"
+                        android:text="附近"
+                        android:textColor="#262626"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/act_home_bar_2_num"
+                    android:layout_width="30px"
+                    android:layout_height="30px"
+                    android:layout_gravity="center|top"
+                    android:layout_marginLeft="10px"
+                    android:background="@drawable/shape_num"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="#ffffff"
+                    android:textSize="8sp"
+                    android:visibility="invisible" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/act_home_bar_3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="onTabClicked">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10px"
+                    android:layout_marginTop="10px"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/act_home_bar_3_iv"
+                        android:layout_width="44px"
+                        android:layout_height="44px"
+                        android:src="@mipmap/coz_2" />
+
+                    <TextView
+                        android:id="@+id/act_home_bar_3_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10px"
+                        android:text="我的"
+                        android:textColor="#262626"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="30px"
+                    android:layout_height="30px"
+                    android:layout_gravity="center|top"
+                    android:layout_marginLeft="10px"
+                    android:background="@drawable/shape_num"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="#ffffff"
+                    android:textSize="8sp"
+                    android:visibility="gone" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <TextView
+
+            android:id="@+id/tv_live"
+            android:layout_width="101px"
+            android:layout_height="101px"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginBottom="30px"
+            android:layout_marginRight="30px"
+            android:background="@mipmap/zye_15"
+            android:gravity="center|bottom"
+            android:paddingBottom="20px"
+            android:text="开播"
+            android:textColor="#fff"
+            android:textSize="11sp">
+
+        </TextView>
+    </FrameLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/camera_config_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <fragment
+        android:id="@+id/encoding_config_fragment"
+        android:name="com.code.clkj.menggong.activity.comCameraStreaming.EncodingConfigFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_camera_config" />
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <fragment
+
+        android:name="com.code.clkj.menggong.activity.comCameraStreaming.CameraConfigFragment"
+        android:id="@+id/camera_config_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_encoding_config" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/temp_toolbar" />
+    <LinearLayout
+        android:id="@+id/Payment_password_Yes"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/Reset_payment_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="重置支付密码"
+                android:textSize="15sp" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1"/>
+
+
+            <ImageView
+                android:id="@+id/Payment_password"
+                android:layout_width="30px"
+                android:layout_height="30px"
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:src="@mipmap/grzl_2" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#e2e2e2" />
+        <LinearLayout
+            android:id="@+id/Forget_pay_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="忘记支付密码"
+                android:textSize="15sp" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1"/>
+
+
+            <ImageView
+                android:layout_width="30px"
+                android:layout_height="30px"
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:src="@mipmap/grzl_2" />
+
+           <!-- <ImageView
+                android:layout_width="30px"
+                android:layout_height="30px"
+                android:layout_gravity="center"
+                android:layout_marginLeft="220dp"
+                android:src="@mipmap/grzl_2" />-->
+        </LinearLayout>
+    </LinearLayout>
+<!--设置支付密码-->
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/Payment_password_No"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="设置支付密码"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="30px"
+            android:layout_height="30px"
+            android:layout_gravity="center"
+            android:layout_marginLeft="220dp"
+            android:src="@mipmap/grzl_2" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#e2e2e2" />
+    <LinearLayout
+        android:id="@+id/Reset_login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="重置登陆密码"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"/>
+
+
+        <ImageView
+            android:id="@+id/Login_password"
+            android:layout_width="30px"
+            android:layout_height="30px"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/grzl_2" />
+
+
+      <!--  <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="30px"
+            android:layout_gravity="center"
+            android:layout_marginLeft="220dp"
+            android:src="@mipmap/grzl_2"/>-->
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#e2e2e2" />
+</LinearLayout>

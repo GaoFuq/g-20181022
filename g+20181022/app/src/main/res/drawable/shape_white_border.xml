@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <!-- android:radius 弧形的半径 -->
+            <corners android:radius="3dp"/>
+            <!-- 绘制边框-->
+            <stroke android:width="1px" android:color="#B1B1B1" android:dashGap="0dp"/>
+        </shape>
+    </item>
+</selector>

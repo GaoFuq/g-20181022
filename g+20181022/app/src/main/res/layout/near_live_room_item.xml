@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="110dp"
+    android:layout_height="110dp"
+    android:gravity="center">
+
+    <!--附近直播间的Item-->
+
+    <ImageView
+        android:id="@+id/mLiveRoomIcon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/zye_7" />
+
+    <TextView
+        android:id="@+id/mDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/mLiveRoomIcon"
+        android:layout_alignRight="@id/mLiveRoomIcon"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="10dp"
+        android:text="0.12km"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>
